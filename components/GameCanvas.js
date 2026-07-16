@@ -35,7 +35,7 @@ const FallingTrash = ({ item, onMiss }) => {
       onAnimationComplete={() => onMiss(item.id)}
     >
       <div className="text-4xl sm:text-5xl filter drop-shadow-xl hover:scale-110 transition-transform">{item.emoji}</div>
-      <div className="bg-white/90 backdrop-blur-sm text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md text-slate-700 mt-1 pointer-events-none text-center whitespace-nowrap border border-slate-100">
+      <div className="bg-white/95 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md text-slate-700 mt-1 pointer-events-none text-center whitespace-nowrap border border-slate-100">
         {item.name}
       </div>
     </motion.div>
@@ -327,7 +327,7 @@ export default function GameCanvas() {
           {/* Bin 3D Visual (Jaring-jaring) */}
           <div className="relative w-full h-full transform-style-3d group-active:scale-95 transition-transform duration-100 drop-shadow-xl">
             {/* Bin Rim (Top) - Ellipse to simulate 3D perspective */}
-            <div className="absolute top-0 w-full h-10 bg-slate-800/30 rounded-[50%] border-4 border-slate-700 z-10 shadow-inner backdrop-blur-[1px]" />
+            <div className="absolute top-0 w-full h-10 bg-slate-800/50 rounded-[50%] border-4 border-slate-700 z-10 shadow-inner" />
             
             {/* Bin Inside Base (Bottom visible through mesh) */}
             <div className="absolute bottom-1 left-[5%] w-[90%] h-6 bg-slate-900 rounded-[50%] z-0" />
@@ -336,17 +336,16 @@ export default function GameCanvas() {
             <div 
               className="absolute top-5 left-[5%] w-[90%] h-[calc(100%-1.25rem)] rounded-b-[1.25rem] border-4 border-t-0 border-slate-700 flex flex-col items-center justify-center overflow-hidden z-0 shadow-[inset_-12px_0_20px_rgba(0,0,0,0.5),inset_12px_0_20px_rgba(0,0,0,0.5)]"
               style={{
-                backgroundColor: 'rgba(30, 41, 59, 0.3)', // slate-800 semi-transparent
+                backgroundColor: 'rgba(30, 41, 59, 0.4)', // slate-800 semi-transparent
                 backgroundImage: `
                   linear-gradient(to right, #475569 2px, transparent 2px),
                   linear-gradient(to bottom, #475569 2px, transparent 2px)
                 `,
-                backgroundSize: '10px 10px',
-                backdropFilter: 'blur(1px)'
+                backgroundSize: '10px 10px'
               }}
             >
               {/* Text label */}
-              <div className="bg-slate-900/90 backdrop-blur-md px-3 py-1 rounded-full border border-slate-600 text-slate-100 font-extrabold text-[10px] tracking-widest shadow-lg">
+              <div className="bg-slate-900/95 px-3 py-1 rounded-full border border-slate-600 text-slate-100 font-extrabold text-[10px] tracking-widest shadow-lg">
                 GESER
               </div>
             </div>
