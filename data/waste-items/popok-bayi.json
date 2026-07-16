@@ -1,0 +1,23 @@
+{
+  "id": "popok-bayi",
+  "nama": "Popok Bayi/Pembalut",
+  "kategoriUtama": "residu",
+  "subKategori": "sulit diolah",
+  "gambar": "/images/waste/popok-bayi.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Popok Bayi/Pembalut yang termasuk dalam kategori residu.",
+  "lamaTerurai": {
+    "min": 500,
+    "max": 500,
+    "satuan": "tahun",
+    "catatan": "500 tahun"
+  },
+  "bisaDiDaurUlang": false,
+  "prosesId": null,
+  "hasilOlahan": [],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

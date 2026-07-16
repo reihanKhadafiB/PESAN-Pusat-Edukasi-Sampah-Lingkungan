@@ -1,0 +1,27 @@
+{
+  "id": "ampas-kopi",
+  "nama": "Ampas Kopi/Sisa Teh",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/ampas-kopi.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Ampas Kopi/Sisa Teh yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 3,
+    "satuan": "bulan",
+    "catatan": "2-3 bulan"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos",
+    "body scrub",
+    "pengusir serangga"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

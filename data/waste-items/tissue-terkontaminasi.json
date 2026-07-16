@@ -1,0 +1,23 @@
+{
+  "id": "tissue-terkontaminasi",
+  "nama": "Tissue Terkontaminasi/Minyak",
+  "kategoriUtama": "residu",
+  "subKategori": "sulit diolah",
+  "gambar": "/images/waste/tissue-terkontaminasi.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Tissue Terkontaminasi/Minyak yang termasuk dalam kategori residu.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 3,
+    "satuan": "bulan",
+    "catatan": "2-3 bulan (tapi tercampur plastik)"
+  },
+  "bisaDiDaurUlang": false,
+  "prosesId": null,
+  "hasilOlahan": [],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

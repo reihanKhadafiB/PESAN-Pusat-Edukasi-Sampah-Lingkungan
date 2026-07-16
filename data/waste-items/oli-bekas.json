@@ -1,0 +1,26 @@
+{
+  "id": "oli-bekas",
+  "nama": "Oli Mesin Bekas",
+  "kategoriUtama": "b3",
+  "subKategori": "berbahaya",
+  "gambar": "/images/waste/oli-bekas.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Oli Mesin Bekas yang termasuk dalam kategori b3.",
+  "lamaTerurai": {
+    "min": 0,
+    "max": 0,
+    "satuan": "permanen",
+    "catatan": "Tidak terurai"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "penanganan-b3",
+  "hasilOlahan": [
+    "Didaur ulang jadi BBM industri",
+    "pelumas再生"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "500-1.500 (oleh pengepul khusus)",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

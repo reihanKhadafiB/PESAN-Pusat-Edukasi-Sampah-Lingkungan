@@ -1,0 +1,26 @@
+{
+  "id": "kabel-tembaga",
+  "nama": "Kabel/Tembaga Bekas",
+  "kategoriUtama": "anorganik",
+  "subKategori": "logam",
+  "gambar": "/images/waste/kabel-tembaga.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kabel/Tembaga Bekas yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50-100 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Kabel baru",
+    "komponen elektronik"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "30.000-60.000",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

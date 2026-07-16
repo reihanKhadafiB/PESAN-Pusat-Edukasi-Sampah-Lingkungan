@@ -1,0 +1,25 @@
+{
+  "id": "kertas-krep",
+  "nama": "Kertas Krep/Kertas Berwarna",
+  "kategoriUtama": "anorganik",
+  "subKategori": "kertas",
+  "gambar": "/images/waste/kertas-krep.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kertas Krep/Kertas Berwarna yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 6,
+    "satuan": "minggu",
+    "catatan": "2-6 minggu"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-kertas",
+  "hasilOlahan": [
+    "Kertas daur ulang campuran"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "500-700",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

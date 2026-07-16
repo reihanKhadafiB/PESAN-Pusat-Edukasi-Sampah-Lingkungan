@@ -1,0 +1,26 @@
+{
+  "id": "nasi-basi",
+  "nama": "Nasi Basi",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/nasi-basi.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Nasi Basi yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 1,
+    "max": 2,
+    "satuan": "minggu",
+    "catatan": "1-2 minggu"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos",
+    "pakan ternak fermentasi"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

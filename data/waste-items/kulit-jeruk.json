@@ -1,0 +1,26 @@
+{
+  "id": "kulit-jeruk",
+  "nama": "Kulit Jeruk",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/kulit-jeruk.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kulit Jeruk yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 6,
+    "max": 6,
+    "satuan": "bulan",
+    "catatan": "6 bulan"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos",
+    "minyak jeruk peel"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

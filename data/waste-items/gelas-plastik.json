@@ -1,0 +1,26 @@
+{
+  "id": "gelas-plastik",
+  "nama": "Gelas Plastik (PP/PS)",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/gelas-plastik.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Gelas Plastik (PP/PS) yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 80,
+    "satuan": "tahun",
+    "catatan": "50-80 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Biji plastik",
+    "paving block"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "1.700-1.800",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

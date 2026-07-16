@@ -1,0 +1,26 @@
+{
+  "id": "koran",
+  "nama": "Koran/Majalah Bekas",
+  "kategoriUtama": "anorganik",
+  "subKategori": "kertas",
+  "gambar": "/images/waste/koran.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Koran/Majalah Bekas yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 6,
+    "satuan": "minggu",
+    "catatan": "2-6 minggu"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-kertas",
+  "hasilOlahan": [
+    "Kertas daur ulang",
+    "kardus telur"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "1.000-1.500",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

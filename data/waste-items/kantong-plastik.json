@@ -1,0 +1,25 @@
+{
+  "id": "kantong-plastik",
+  "nama": "Kantong Plastik/Kresek",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/kantong-plastik.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kantong Plastik/Kresek yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 10,
+    "max": 1000,
+    "satuan": "tahun",
+    "catatan": "10-1000 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pirolisis-plastik-ke-bbm",
+  "hasilOlahan": [
+    "BBM melalui pirolisis"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "300-500",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

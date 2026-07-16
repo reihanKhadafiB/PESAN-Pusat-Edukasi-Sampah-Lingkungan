@@ -1,0 +1,19 @@
+{
+  "id": "daur-ulang-plastik",
+  "judul": "Daur Ulang Plastik",
+  "kategori": "anorganik",
+  "gambar": "/images/proses/daur-ulang-plastik.webp",
+  "deskripsi": "Proses mengubah sampah plastik bekas menjadi produk baru.",
+  "langkah": [
+    "Kumpulkan dan pilah jenis plastik",
+    "Cuci bersih",
+    "Cacah jadi serpihan (flake)",
+    "Lebur di extruder",
+    "Cetak jadi pellet/bijih plastik"
+  ],
+  "hasilAkhir": "Biji plastik/pellet, serat poliester",
+  "sumberReferensi": [
+    "https://waste4change.com/",
+    "https://www.sucofindo.co.id/"
+  ]
+}

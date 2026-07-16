@@ -1,0 +1,27 @@
+{
+  "id": "lampu-neon",
+  "nama": "Lampu Neon/LED Bekas",
+  "kategoriUtama": "b3",
+  "subKategori": "berbahaya",
+  "gambar": "/images/waste/lampu-neon.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Lampu Neon/LED Bekas yang termasuk dalam kategori b3.",
+  "lamaTerurai": {
+    "min": 0,
+    "max": 0,
+    "satuan": "permanen",
+    "catatan": "Tidak terurai"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "penanganan-b3",
+  "hasilOlahan": [
+    "Recovery merkuri",
+    "kaca",
+    "aluminium"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

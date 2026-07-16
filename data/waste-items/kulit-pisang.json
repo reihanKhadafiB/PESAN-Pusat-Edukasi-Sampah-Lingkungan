@@ -1,0 +1,26 @@
+{
+  "id": "kulit-pisang",
+  "nama": "Kulit Pisang",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/kulit-pisang.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kulit Pisang yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 6,
+    "satuan": "bulan",
+    "catatan": "2-6 bulan"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos",
+    "pupuk organik cair"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

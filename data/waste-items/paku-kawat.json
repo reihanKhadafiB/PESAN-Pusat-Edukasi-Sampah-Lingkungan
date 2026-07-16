@@ -1,0 +1,25 @@
+{
+  "id": "paku-kawat",
+  "nama": "Paku/Kawat Bekas",
+  "kategoriUtama": "anorganik",
+  "subKategori": "logam",
+  "gambar": "/images/waste/paku-kawat.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Paku/Kawat Bekas yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50-100 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Baja baru"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "2.000-4.000",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

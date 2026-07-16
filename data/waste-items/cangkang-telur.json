@@ -1,0 +1,26 @@
+{
+  "id": "cangkang-telur",
+  "nama": "Cangkang Telur",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/cangkang-telur.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Cangkang Telur yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 0,
+    "max": 0,
+    "satuan": "permanen",
+    "catatan": "Tidak terurai (kalsium)"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Pupuk kalsium",
+    "campuran kompos"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

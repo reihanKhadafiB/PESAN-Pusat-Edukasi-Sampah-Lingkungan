@@ -1,0 +1,19 @@
+{
+  "id": "pirolisis-plastik-ke-bbm",
+  "judul": "Pirolisis Plastik ke BBM",
+  "kategori": "anorganik",
+  "gambar": "/images/proses/pirolisis-bbm.webp",
+  "deskripsi": "Mengubah plastik menjadi bahan bakar minyak melalui proses tanpa oksigen.",
+  "langkah": [
+    "Cacah sampah plastik",
+    "Masukkan ke reaktor pirolisis",
+    "Panaskan 300-500°C tanpa oksigen",
+    "Alirkan gas ke kondensor",
+    "Saring BBM"
+  ],
+  "hasilAkhir": "Bensin, solar, lilin/residu",
+  "sumberReferensi": [
+    "https://www.identif.id/",
+    "https://www.bbc.com/indonesia"
+  ]
+}

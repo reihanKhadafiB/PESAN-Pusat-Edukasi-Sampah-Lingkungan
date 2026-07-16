@@ -1,0 +1,23 @@
+{
+  "id": "rokok-filter",
+  "nama": "Filter Rokok/Sampoing",
+  "kategoriUtama": "residu",
+  "subKategori": "sulit diolah",
+  "gambar": "/images/waste/rokok-filter.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Filter Rokok/Sampoing yang termasuk dalam kategori residu.",
+  "lamaTerurai": {
+    "min": 10,
+    "max": 12,
+    "satuan": "tahun",
+    "catatan": "10-12 tahun"
+  },
+  "bisaDiDaurUlang": false,
+  "prosesId": null,
+  "hasilOlahan": [],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

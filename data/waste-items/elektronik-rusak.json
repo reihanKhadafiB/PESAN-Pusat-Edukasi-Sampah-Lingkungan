@@ -1,0 +1,27 @@
+{
+  "id": "elektronik-rusak",
+  "nama": "Elektronik Bekas (E-waste)",
+  "kategoriUtama": "b3",
+  "subKategori": "berbahaya",
+  "gambar": "/images/waste/elektronik-rusak.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Elektronik Bekas (E-waste) yang termasuk dalam kategori b3.",
+  "lamaTerurai": {
+    "min": 100,
+    "max": 150,
+    "satuan": "tahun",
+    "catatan": "100+ tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "penanganan-b3",
+  "hasilOlahan": [
+    "Recovery emas",
+    "tembaga",
+    "logam langka"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "1.000-5.000 (tergantung jenis)",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

@@ -1,0 +1,25 @@
+{
+  "id": "styrofoam",
+  "nama": "Styrofoam (EPS)",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/styrofoam.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Styrofoam (EPS) yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 0,
+    "max": 0,
+    "satuan": "permanen",
+    "catatan": "Tidak terurai alami"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pirolisis-plastik-ke-bbm",
+  "hasilOlahan": [
+    "BBM melalui pirolisis (kadar rendah)"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

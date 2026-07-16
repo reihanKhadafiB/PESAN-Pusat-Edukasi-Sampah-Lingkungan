@@ -1,0 +1,25 @@
+{
+  "id": "cat-thinner",
+  "nama": "Cat dan Thinner Bekas",
+  "kategoriUtama": "b3",
+  "subKategori": "berbahaya",
+  "gambar": "/images/waste/cat-thinner.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Cat dan Thinner Bekas yang termasuk dalam kategori b3.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50+ tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "penanganan-b3",
+  "hasilOlahan": [
+    "Dimusnahkan/diolah di fasilitas B3"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

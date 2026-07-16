@@ -1,0 +1,28 @@
+{
+  "id": "botol-pet",
+  "nama": "Botol Plastik PET",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/botol-pet.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Botol Plastik PET yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 450,
+    "max": 450,
+    "satuan": "tahun",
+    "catatan": "450 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Serat poliester",
+    "ecobrick",
+    "paving block",
+    "BBM pirolisis"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "1.500-4.600",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "besi-baja",
+  "nama": "Besi/Baja Bekas",
+  "kategoriUtama": "anorganik",
+  "subKategori": "logam",
+  "gambar": "/images/waste/besi-baja.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Besi/Baja Bekas yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50-100 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Baja baru",
+    "konstruksi"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "5.000-9.000",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

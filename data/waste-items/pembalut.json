@@ -1,0 +1,23 @@
+{
+  "id": "pembalut",
+  "nama": "Pembalut Wanita Bekas",
+  "kategoriUtama": "residu",
+  "subKategori": "sulit diolah",
+  "gambar": "/images/waste/pembalut.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Pembalut Wanita Bekas yang termasuk dalam kategori residu.",
+  "lamaTerurai": {
+    "min": 500,
+    "max": 550,
+    "satuan": "tahun",
+    "catatan": "500+ tahun"
+  },
+  "bisaDiDaurUlang": false,
+  "prosesId": null,
+  "hasilOlahan": [],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

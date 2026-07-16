@@ -1,0 +1,19 @@
+{
+  "id": "penanganan-b3",
+  "judul": "Penanganan B3",
+  "kategori": "b3",
+  "gambar": "/images/proses/penanganan-b3.webp",
+  "deskripsi": "Menangani limbah berbahaya dan beracun rumah tangga.",
+  "langkah": [
+    "Identifikasi dan pisahkan limbah B3",
+    "Simpan di wadah tertutup",
+    "Serahkan ke TPS B3 atau bank sampah khusus",
+    "Pengujian karakteristik (TCLP) di fasilitas",
+    "Pengolahan akhir"
+  ],
+  "hasilAkhir": "Recovery logam berharga, disposal aman",
+  "sumberReferensi": [
+    "https://greenlab.co.id/",
+    "https://dlh.jatengprov.go.id/"
+  ]
+}

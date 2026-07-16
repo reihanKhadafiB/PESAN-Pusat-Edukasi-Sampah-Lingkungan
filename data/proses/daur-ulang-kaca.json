@@ -1,0 +1,18 @@
+{
+  "id": "daur-ulang-kaca",
+  "judul": "Daur Ulang Kaca",
+  "kategori": "anorganik",
+  "gambar": "/images/proses/daur-ulang-kaca.webp",
+  "deskripsi": "Proses daur ulang botol dan pecahan kaca.",
+  "langkah": [
+    "Kumpulkan dan pilah berdasarkan warna",
+    "Hancurkan jadi pecahan kecil (cullet)",
+    "Cuci bersih",
+    "Lebur di tungku suhu tinggi",
+    "Cetak produk baru"
+  ],
+  "hasilAkhir": "Botol kaca baru, pecahan kaca (cullet)",
+  "sumberReferensi": [
+    "https://id.wikipedia.org/wiki/Daur_ulang_kaca"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pembuatan-paving-block",
+  "judul": "Pembuatan Paving Block dari Plastik",
+  "kategori": "anorganik",
+  "gambar": "/images/proses/paving-block.webp",
+  "deskripsi": "Memanfaatkan sampah plastik keras menjadi paving block.",
+  "langkah": [
+    "Kumpulkan dan cacah sampah plastik",
+    "Lelehkan plastik",
+    "Campurkan dengan pasir (1:3)",
+    "Tuang ke cetakan",
+    "Keringkan"
+  ],
+  "hasilAkhir": "Paving block ramah lingkungan",
+  "sumberReferensi": [
+    "https://www.itb.ac.id/",
+    "https://ejournal.utp.ac.id/"
+  ]
+}

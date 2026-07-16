@@ -1,0 +1,27 @@
+{
+  "id": "ranting-kayu",
+  "nama": "Ranting Kayu/Batang",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/ranting-kayu.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Ranting Kayu/Batang yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 10,
+    "max": 15,
+    "satuan": "tahun",
+    "catatan": "10-15 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos (lambat)",
+    "arang kayu",
+    "wood chip"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

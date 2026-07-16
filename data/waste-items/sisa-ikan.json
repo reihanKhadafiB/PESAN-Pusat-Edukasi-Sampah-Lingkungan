@@ -1,0 +1,26 @@
+{
+  "id": "sisa-ikan",
+  "nama": "Sisa Ikan/Seafood",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/sisa-ikan.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Sisa Ikan/Seafood yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 1,
+    "max": 2,
+    "satuan": "minggu",
+    "catatan": "1-2 minggu"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos",
+    "pupuk cair (kaya nitrogen)"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

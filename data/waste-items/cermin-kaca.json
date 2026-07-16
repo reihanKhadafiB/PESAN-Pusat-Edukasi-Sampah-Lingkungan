@@ -1,0 +1,25 @@
+{
+  "id": "cermin-kaca",
+  "nama": "Cermin/Kaca Patri",
+  "kategoriUtama": "anorganik",
+  "subKategori": "kaca",
+  "gambar": "/images/waste/cermin-kaca.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Cermin/Kaca Patri yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 1,
+    "max": 1,
+    "satuan": "tahun",
+    "catatan": "1 juta tahun"
+  },
+  "bisaDiDaurUlang": false,
+  "prosesId": null,
+  "hasilOlahan": [
+    "— (kandungan merkuri/ Coating sulit dipisahkan)"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

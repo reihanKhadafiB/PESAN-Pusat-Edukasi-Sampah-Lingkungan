@@ -1,0 +1,25 @@
+{
+  "id": "sachet-kemasan",
+  "nama": "Sachet/Kemasan Multilayer",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/sachet-kemasan.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Sachet/Kemasan Multilayer yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50-100 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pirolisis-plastik-ke-bbm",
+  "hasilOlahan": [
+    "BBM melalui pirolisis"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "300-500 (campuran)",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

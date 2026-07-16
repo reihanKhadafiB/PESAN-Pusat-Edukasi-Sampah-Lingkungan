@@ -1,0 +1,26 @@
+{
+  "id": "tulang-ayam",
+  "nama": "Tulang Ayam",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/tulang-ayam.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Tulang Ayam yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 10,
+    "max": 30,
+    "satuan": "tahun",
+    "catatan": "10-30 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos (lambat)",
+    "pupuk fosfor"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

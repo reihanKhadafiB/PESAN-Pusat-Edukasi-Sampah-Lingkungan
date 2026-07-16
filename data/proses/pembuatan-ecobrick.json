@@ -1,0 +1,18 @@
+{
+  "id": "pembuatan-ecobrick",
+  "judul": "Pembuatan Ecobrick",
+  "kategori": "anorganik",
+  "gambar": "/images/proses/ecobrick.webp",
+  "deskripsi": "Mengubah sampah plastik sachet/bungkus menjadi material bangunan modular.",
+  "langkah": [
+    "Siapkan botol plastik bersih",
+    "Kumpulkan sampah plastik bersih",
+    "Potong kecil-kecil",
+    "Masukkan ke botol dan padatkan",
+    "Isi hingga penuh dan keras"
+  ],
+  "hasilAkhir": "Bahan bangunan modular (ecobrick)",
+  "sumberReferensi": [
+    "https://ecobricks.org/id/"
+  ]
+}

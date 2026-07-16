@@ -1,0 +1,26 @@
+{
+  "id": "kaleng-besi",
+  "nama": "Kaleng Besi/Bekas Makanan",
+  "kategoriUtama": "anorganik",
+  "subKategori": "logam",
+  "gambar": "/images/waste/kaleng-besi.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kaleng Besi/Bekas Makanan yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50-100 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Baja baru",
+    "produk logam"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "2.000-3.000",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

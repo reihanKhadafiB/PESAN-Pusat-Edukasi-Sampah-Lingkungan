@@ -1,0 +1,19 @@
+{
+  "id": "pengomposan",
+  "judul": "Pengomposan",
+  "kategori": "organik",
+  "gambar": "/images/proses/pengomposan.webp",
+  "deskripsi": "Proses mengubah sampah organik menjadi kompos melalui dekomposisi alami.",
+  "langkah": [
+    "Pisahkan sampah organik",
+    "Cacah kecil-kecil",
+    "Campur dengan tanah/EM4 (1:100)",
+    "Diamkan 2-4 minggu",
+    "Aduk berkala"
+  ],
+  "hasilAkhir": "Kompos padat untuk pupuk tanaman, atau kompos cair",
+  "sumberReferensi": [
+    "https://em4.co.id/",
+    "https://dlh.bulelengkab.go.id/"
+  ]
+}

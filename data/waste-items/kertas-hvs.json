@@ -1,0 +1,27 @@
+{
+  "id": "kertas-hvs",
+  "nama": "Kertas HVS/Kertas Cetakan",
+  "kategoriUtama": "anorganik",
+  "subKategori": "kertas",
+  "gambar": "/images/waste/kertas-hvs.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kertas HVS/Kertas Cetakan yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 6,
+    "satuan": "minggu",
+    "catatan": "2-6 minggu"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-kertas",
+  "hasilOlahan": [
+    "Kertas daur ulang",
+    "kartu nama",
+    "kraft"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "1.700",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

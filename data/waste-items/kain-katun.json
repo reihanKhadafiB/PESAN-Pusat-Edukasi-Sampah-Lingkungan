@@ -1,0 +1,27 @@
+{
+  "id": "kain-katun",
+  "nama": "Kain Katun/Baju Bekas",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/kain-katun.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kain Katun/Baju Bekas yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 1,
+    "max": 5,
+    "satuan": "bulan",
+    "catatan": "1-5 bulan"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos",
+    "lap",
+    "kerajinan quilting"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

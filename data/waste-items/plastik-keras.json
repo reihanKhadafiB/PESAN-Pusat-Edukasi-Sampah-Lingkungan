@@ -1,0 +1,25 @@
+{
+  "id": "plastik-keras",
+  "nama": "Plastik Kerasan/Mika",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/plastik-keras.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Plastik Kerasan/Mika yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 20,
+    "max": 30,
+    "satuan": "tahun",
+    "catatan": "20-30 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Biji plastik campuran"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "300-700",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

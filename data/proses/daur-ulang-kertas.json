@@ -1,0 +1,19 @@
+{
+  "id": "daur-ulang-kertas",
+  "judul": "Daur Ulang Kertas",
+  "kategori": "anorganik",
+  "gambar": "/images/proses/daur-ulang-kertas.webp",
+  "deskripsi": "Proses daur ulang kertas bekas menjadi kertas baru.",
+  "langkah": [
+    "Kumpulkan kertas bekas",
+    "Rendam dalam air 12-24 jam",
+    "Blender jadi bubur kertas",
+    "Saring dan cetak",
+    "Tekan dan keringkan"
+  ],
+  "hasilAkhir": "Kertas daur ulang, kardus telur",
+  "sumberReferensi": [
+    "https://id.wikihow.com/Mendaur-Ulang-Kertas",
+    "https://arahenvironmental.com/"
+  ]
+}

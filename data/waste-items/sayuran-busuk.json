@@ -1,0 +1,25 @@
+{
+  "id": "sayuran-busuk",
+  "nama": "Sayuran Busuk",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/sayuran-busuk.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Sayuran Busuk yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 1,
+    "max": 2,
+    "satuan": "minggu",
+    "catatan": "1-2 minggu"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "mainan-plastik",
+  "nama": "Mainan Plastik Bekas",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/mainan-plastik.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Mainan Plastik Bekas yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50-100 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Biji plastik",
+    "paving block"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "300-700",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

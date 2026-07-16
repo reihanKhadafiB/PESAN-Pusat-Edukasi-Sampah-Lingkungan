@@ -1,0 +1,28 @@
+{
+  "id": "baterai-bekas",
+  "nama": "Baterai/Batre Bekas",
+  "kategoriUtama": "b3",
+  "subKategori": "berbahaya",
+  "gambar": "/images/waste/baterai-bekas.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Baterai/Batre Bekas yang termasuk dalam kategori b3.",
+  "lamaTerurai": {
+    "min": 100,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "100 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "penanganan-b3",
+  "hasilOlahan": [
+    "Recovery logam (timah",
+    "seng",
+    "nikel)",
+    "elektrolit"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual (harus diserahkan)",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

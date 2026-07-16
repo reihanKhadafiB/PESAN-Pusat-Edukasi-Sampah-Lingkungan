@@ -1,0 +1,26 @@
+{
+  "id": "kaleng-aluminium",
+  "nama": "Kaleng Aluminium (Minuman)",
+  "kategoriUtama": "anorganik",
+  "subKategori": "logam",
+  "gambar": "/images/waste/kaleng-aluminium.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kaleng Aluminium (Minuman) yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 80,
+    "max": 200,
+    "satuan": "tahun",
+    "catatan": "80-200 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Ingot aluminium",
+    "produk logam baru"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "8.000-15.000",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sedotan-residu",
+  "nama": "Sedotan Plastik (campuran)",
+  "kategoriUtama": "residu",
+  "subKategori": "sulit diolah",
+  "gambar": "/images/waste/sedotan-residu.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Sedotan Plastik (campuran) yang termasuk dalam kategori residu.",
+  "lamaTerurai": {
+    "min": 200,
+    "max": 200,
+    "satuan": "tahun",
+    "catatan": "200 tahun"
+  },
+  "bisaDiDaurUlang": false,
+  "prosesId": null,
+  "hasilOlahan": [],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

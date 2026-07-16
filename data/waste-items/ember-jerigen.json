@@ -1,0 +1,27 @@
+{
+  "id": "ember-jerigen",
+  "nama": "Ember/Jerigen (HDPE/PP)",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/ember-jerigen.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Ember/Jerigen (HDPE/PP) yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 80,
+    "satuan": "tahun",
+    "catatan": "50-80 tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-plastik",
+  "hasilOlahan": [
+    "Biji plastik",
+    "ecobrick",
+    "paving block"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "900-1.000",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

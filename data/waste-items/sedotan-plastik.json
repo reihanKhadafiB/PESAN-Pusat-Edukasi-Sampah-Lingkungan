@@ -1,0 +1,23 @@
+{
+  "id": "sedotan-plastik",
+  "nama": "Sedotan Plastik",
+  "kategoriUtama": "anorganik",
+  "subKategori": "plastik",
+  "gambar": "/images/waste/sedotan-plastik.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Sedotan Plastik yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 200,
+    "max": 200,
+    "satuan": "tahun",
+    "catatan": "200 tahun"
+  },
+  "bisaDiDaurUlang": false,
+  "prosesId": null,
+  "hasilOlahan": [],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak diterima",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

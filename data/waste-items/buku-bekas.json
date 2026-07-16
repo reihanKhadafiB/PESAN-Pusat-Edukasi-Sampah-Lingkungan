@@ -1,0 +1,25 @@
+{
+  "id": "buku-bekas",
+  "nama": "Buku Bekas",
+  "kategoriUtama": "anorganik",
+  "subKategori": "kertas",
+  "gambar": "/images/waste/buku-bekas.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Buku Bekas yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 6,
+    "satuan": "minggu",
+    "catatan": "2-6 minggu"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-kertas",
+  "hasilOlahan": [
+    "Kertas daur ulang"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "700-1.000",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

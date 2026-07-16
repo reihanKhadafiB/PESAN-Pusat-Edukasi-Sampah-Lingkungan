@@ -1,0 +1,26 @@
+{
+  "id": "kaleng-aerosol",
+  "nama": "Kaleng Aerosol Bekas",
+  "kategoriUtama": "b3",
+  "subKategori": "berbahaya",
+  "gambar": "/images/waste/kaleng-aerosol.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kaleng Aerosol Bekas yang termasuk dalam kategori b3.",
+  "lamaTerurai": {
+    "min": 50,
+    "max": 100,
+    "satuan": "tahun",
+    "catatan": "50+ tahun"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "penanganan-b3",
+  "hasilOlahan": [
+    "Dikosongkan",
+    "logam didaur ulang"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

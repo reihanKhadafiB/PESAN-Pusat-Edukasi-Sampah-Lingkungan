@@ -1,0 +1,25 @@
+{
+  "id": "kertas-tisu",
+  "nama": "Tisu/Bungkus Makanan Berlapis",
+  "kategoriUtama": "organik",
+  "subKategori": "umum",
+  "gambar": "/images/waste/kertas-tisu.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Tisu/Bungkus Makanan Berlapis yang termasuk dalam kategori organik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 3,
+    "satuan": "bulan",
+    "catatan": "2-3 bulan"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "pengomposan",
+  "hasilOlahan": [
+    "Kompos (jika tidak terkontaminasi plastik)"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "Tidak dijual",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

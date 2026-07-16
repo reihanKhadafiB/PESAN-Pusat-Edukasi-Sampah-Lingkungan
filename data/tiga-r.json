@@ -1,0 +1,50 @@
+[
+  { 
+    "id": "reduce", 
+    "judul": "Reduce (Mengurangi)", 
+    "deskripsi": "Langkah pertama dan paling krusial dalam hierarki pengelolaan sampah. Reduce berarti mencegah timbulnya sampah sejak awal dengan cara mengubah pola konsumsi kita secara radikal. Semakin sedikit barang sekali pakai yang kita beli, semakin sedikit pula jejak ekologis dan polusi yang kita tinggalkan.", 
+    "fakta": "Setiap menit, lebih dari 1 juta kantong plastik digunakan di seluruh dunia dan hampir semuanya langsung berakhir di TPA atau mencemari lautan.",
+    "manfaat": [
+      "Secara langsung menekan penumpukan sampah di TPA.",
+      "Mengurangi laju eksploitasi sumber daya alam (seperti penebangan pohon dan penambangan minyak bumi).",
+      "Menghemat pengeluaran harian dengan menghindari gaya hidup konsumtif berlebih."
+    ],
+    "contoh": [
+      "Selalu membawa tas belanja kain dan botol minum (tumbler) sendiri.",
+      "Menolak sedotan plastik dan alat makan sekali pakai saat membeli makanan.",
+      "Membeli produk dengan kemasan isi ulang (refill) berukuran besar atau tanpa plastik."
+    ] 
+  },
+  { 
+    "id": "reuse", 
+    "judul": "Reuse (Menggunakan Kembali)", 
+    "deskripsi": "Memaksimalkan umur pakai dan fungsi suatu barang sebelum ia benar-benar rusak dan terpaksa dibuang. Berbeda dengan daur ulang, proses Reuse tidak membutuhkan energi pabrik atau peleburan sama sekali, sehingga jauh lebih ramah lingkungan dan hemat biaya.", 
+    "fakta": "Pakaian atau material tekstil membutuhkan ratusan liter air dalam produksinya, namun jutaan ton pakaian masih dibuang begitu saja setiap tahunnya.",
+    "manfaat": [
+      "Menghentikan kebiasaan langsung membuang barang yang baru dipakai sekali.",
+      "Melatih kreativitas untuk melihat potensi tersembunyi dari barang bekas.",
+      "Sangat menekan angka produksi pabrik dan emisi gas rumah kaca."
+    ],
+    "contoh": [
+      "Menjadikan kaleng biskuit, botol kaca, atau wadah plastik keras sebagai pot tanaman estetik.",
+      "Mengalihfungsikan pakaian lama atau kain perca menjadi kain pel pembersih rumah.",
+      "Menyumbangkan atau menjual pakaian, mainan, dan buku lama agar terus berputar penggunaannya."
+    ] 
+  },
+  { 
+    "id": "recycle", 
+    "judul": "Recycle (Mendaur Ulang)", 
+    "deskripsi": "Garis pertahanan terakhir dalam prinsip 3R. Recycle adalah proses menghancurkan, melebur, atau mencacah materi sisa menjadi produk atau bahan baku baru yang bernilai guna. Ini adalah cara cerdas mengubah 'sampah yang tak terhindarkan' menjadi 'sumber daya ekonomi'.", 
+    "fakta": "Mendaur ulang 1 ton sampah kertas dapat menyelamatkan 17 pohon dewasa berukuran besar dan menghemat 26.000 liter air bersih.",
+    "manfaat": [
+      "Menciptakan nilai ekonomi sirkular (menghasilkan uang/cuan dari barang buangan).",
+      "Menyediakan lapangan pekerjaan masif bagi petugas kebersihan dan industri daur ulang.",
+      "Sangat menghemat energi listrik jika dibandingkan dengan mengolah material mentah murni dari alam."
+    ],
+    "contoh": [
+      "Mencacah sisa sayuran, buah, dan daun kering lalu difermentasi menjadi pupuk kompos.",
+      "Mengumpulkan kardus, kertas bekas, dan botol PET bersih untuk disetorkan ke Bank Sampah terdekat.",
+      "Menciptakan kerajinan bernilai jual tinggi dari limbah kemasan atau menyusun Ecobrick dari sampah plastik."
+    ] 
+  }
+]

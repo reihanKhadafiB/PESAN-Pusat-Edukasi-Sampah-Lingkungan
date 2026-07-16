@@ -1,0 +1,26 @@
+{
+  "id": "kardus",
+  "nama": "Kardus/Dus Bekas",
+  "kategoriUtama": "anorganik",
+  "subKategori": "kertas",
+  "gambar": "/images/waste/kardus.webp",
+  "deskripsiSingkat": "Informasi mengenai sampah Kardus/Dus Bekas yang termasuk dalam kategori anorganik.",
+  "lamaTerurai": {
+    "min": 2,
+    "max": 5,
+    "satuan": "bulan",
+    "catatan": "2-5 bulan"
+  },
+  "bisaDiDaurUlang": true,
+  "prosesId": "daur-ulang-kertas",
+  "hasilOlahan": [
+    "Kardus baru",
+    "kertas kraft"
+  ],
+  "potensiCuan": {
+    "hargaPerKg": "1.000-1.500",
+    "satuan": "IDR",
+    "catatan": "Harga dapat bervariasi."
+  },
+  "sumberReferensi": []
+}

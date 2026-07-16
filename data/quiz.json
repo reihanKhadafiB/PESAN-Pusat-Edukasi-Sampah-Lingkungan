@@ -1,0 +1,142 @@
+[
+  {
+    "id": "q1",
+    "pertanyaan": "Kamu habis jajan es kopi susu kekinian. Gelas plastiknya masih ada sisa manisnya. Langkah paling tepat sebelum membuangnya adalah...",
+    "opsi": ["Buang langsung ke tempat sampah", "Bilas sisa minumannya lalu masukkan ke tong anorganik", "Lempar plastiknya ke selokan terdekat", "Simpan di kulkas sampai tahun depan"],
+    "jawabanBenar": 1,
+    "penjelasan": "Sisa minuman manis bisa mengundang semut dan membuat plastik kotor sehingga ditolak oleh bank sampah atau mesin daur ulang. Bilas dulu sebelum dibuang ya!"
+  },
+  {
+    "id": "q2",
+    "pertanyaan": "Di antara 'monster' sampah berikut, mana yang punya nyawa paling panjang alias paling susah hancur di alam?",
+    "opsi": ["Kertas bungkus nasi", "Kulit durian", "Styrofoam (Gabus makanan)", "Sedotan plastik tipis"],
+    "jawabanBenar": 2,
+    "penjelasan": "Styrofoam terbuat dari polystyrene yang memakan waktu ribuan tahun, atau bahkan tidak akan pernah terurai secara alami sama sekali di alam liar!"
+  },
+  {
+    "id": "q3",
+    "pertanyaan": "Ibumu baru saja menggoreng ikan dan menyisakan banyak minyak jelantah hitam. Agar ibumu jadi Pahlawan Lingkungan, apa yang harus ia lakukan?",
+    "opsi": ["Tuang ke wastafel biar cepat hilang", "Buang ke tanah depan rumah", "Buat campuran sirup", "Kumpulkan di botol bekas dan berikan ke pengepul/bank sampah"],
+    "jawabanBenar": 3,
+    "penjelasan": "Minyak jelantah yang dibuang ke saluran air akan membeku dan menyumbat got. Minyak ini bisa disetorkan ke bank sampah untuk didaur ulang menjadi biodiesel!"
+  },
+  {
+    "id": "q4",
+    "pertanyaan": "Baterai remote TV bekas ibarat 'racun kecil' yang tersembunyi karena termasuk ke dalam kategori limbah...",
+    "opsi": ["Organik yang sulit terurai", "Anorganik biasa", "B3 (Bahan Berbahaya & Beracun)", "Residu ramah lingkungan"],
+    "jawabanBenar": 2,
+    "penjelasan": "Baterai mengandung logam berat dan zat kimia beracun seperti merkuri dan kadmium. Membuangnya sembarangan bisa mencemari air tanah yang kita minum."
+  },
+  {
+    "id": "q5",
+    "pertanyaan": "Membawa botol minum (tumbler) sendiri dari rumah ke sekolah/kampus adalah contoh aksi paling keren dari prinsip...",
+    "opsi": ["Replace (Mengganti) & Reduce (Mengurangi)", "Recycle (Daur Ulang)", "Replant (Menanam Kembali)", "Rot (Membusukkan)"],
+    "jawabanBenar": 0,
+    "penjelasan": "Kamu MENGGANTI (Replace) kebiasaan beli air kemasan dan MENGURANGI (Reduce) jumlah sampah botol plastik yang menumpuk di bumi."
+  },
+  {
+    "id": "q6",
+    "pertanyaan": "Bayangkan kamu adalah seekor penyu di lautan luas. Benda apa yang sering disangka 'ubur-ubur lezat' tapi ternyata bisa membunuhmu?",
+    "opsi": ["Terumbu karang putih", "Kantong kresek plastik transparan", "Rumput laut kering", "Pecahan kaca"],
+    "jawabanBenar": 1,
+    "penjelasan": "Penyu tidak bisa membedakan ubur-ubur (makanan utama mereka) dengan kantong kresek transparan yang melayang di air. Yuk, kurangi penggunaan kresek!"
+  },
+  {
+    "id": "q7",
+    "pertanyaan": "Apa rahasia ajaib yang bisa mengubah sisa apel, kulit pisang, dan sayur layu menjadi 'vitamin super' untuk tanaman?",
+    "opsi": ["Pembakaran", "Peleburan", "Kompos", "Pemutihan"],
+    "jawabanBenar": 2,
+    "penjelasan": "Pengomposan adalah proses alami di mana mikroorganisme mengubah sampah sisa makanan (organik) menjadi pupuk kaya nutrisi untuk menyuburkan tanah."
+  },
+  {
+    "id": "q8",
+    "pertanyaan": "Celana jeans favoritmu robek besar di lutut. Daripada dibuang, kamu menjahitnya menjadi tas selempang gaul. Tindakan kreatif ini disebut...",
+    "opsi": ["Replant", "Reuse (Guna Ulang)", "Reduce", "Replace"],
+    "jawabanBenar": 1,
+    "penjelasan": "Reuse atau Upcycling berarti kamu menggunakan kembali barang yang sudah tidak terpakai menjadi barang dengan fungsi baru tanpa melalui proses pabrik daur ulang."
+  },
+  {
+    "id": "q9",
+    "pertanyaan": "Kamu lagi jalan santai di Desa Wancimekar dan baru habis makan permen. Tong sampah nggak kelihatan. Apa tindakan seorang Pahlawan Bumi?",
+    "opsi": ["Buang di semak-semak, nggak ada yang lihat", "Lempar ke selokan biar hanyut", "Masukkan bungkusnya ke saku celana sampai ketemu tong sampah", "Telan saja bungkusnya"],
+    "jawabanBenar": 2,
+    "penjelasan": "Menyimpan sampah kecil di saku atau tas sebelum menemukan tempat sampah adalah kebiasaan sepele yang berdampak luar biasa bagi kebersihan lingkungan."
+  },
+  {
+    "id": "q10",
+    "pertanyaan": "Struk belanja dari minimarket atau ATM yang warnanya putih pudar itu ternyata masuk ke kategori sampah apa?",
+    "opsi": ["Anorganik (Bisa didaur ulang)", "Residu (Sulit didaur ulang karena ada lapisan bahan kimia khusus)", "Organik", "Bahan Berbahaya level dewa"],
+    "jawabanBenar": 1,
+    "penjelasan": "Kertas struk (thermal paper) mengandung lapisan kimia (seperti BPA) agar tulisan bisa tercetak tanpa tinta. Kertas ini tidak bisa didaur ulang bersama kertas biasa!"
+  },
+  {
+    "id": "q11",
+    "pertanyaan": "Kalau sampah sisa makanan (organik) dibuang dan ditumpuk begitu saja di TPA tanpa oksigen, ia akan menghasilkan gas yang membuat bumi makin gerah. Gas apakah itu?",
+    "opsi": ["Oksigen", "Karbon Monoksida", "Metana", "Helium"],
+    "jawabanBenar": 2,
+    "penjelasan": "Pembusukan organik tanpa oksigen menghasilkan gas metana, yang kekuatan efek rumah kacanya 25 kali lebih jahat daripada karbon dioksida!"
+  },
+  {
+    "id": "q12",
+    "pertanyaan": "Berapa lama rata-rata waktu yang dibutuhkan sebuah kantong kresek tipis yang kamu buang sembarangan untuk hancur di alam liar?",
+    "opsi": ["1-2 hari", "3-4 minggu", "10-20 tahun", "Tidak akan hancur"],
+    "jawabanBenar": 2,
+    "penjelasan": "Kresek plastik tipis butuh sekitar 10-20 tahun untuk terurai menjadi mikroplastik (partikel kecil plastik) yang justru malah bisa termakan oleh hewan."
+  },
+  {
+    "id": "q13",
+    "pertanyaan": "Pilah sampah dari rumah itu ibarat misi rahasia. Tong sampah berwarna KUNING (standar nasional) biasanya adalah markas untuk sampah...",
+    "opsi": ["Organik (sisa makanan, daun)", "Anorganik (plastik, botol kaleng)", "B3 (baterai, racun serangga)", "Khusus kertas"],
+    "jawabanBenar": 1,
+    "penjelasan": "Secara standar, Hijau = Organik, Kuning = Anorganik (plastik/kaleng daur ulang), Merah = B3, Biru = Kertas, dan Abu-abu = Residu."
+  },
+  {
+    "id": "q14",
+    "pertanyaan": "Kamu melihat tumpukan botol sirup berbahan kaca. Tau nggak, botol kaca ini punya kekuatan super lho, yaitu...",
+    "opsi": ["Bisa hancur sendirinya dalam setahun", "Bisa didaur ulang berkali-kali tanpa batas tanpa menurunkan kualitasnya", "Bisa berubah menjadi kompos", "Akan meleleh jika terkena panas matahari terik"],
+    "jawabanBenar": 1,
+    "penjelasan": "Kaca adalah material 100% dapat didaur ulang selamanya. Mendaur ulang kaca jauh lebih hemat energi daripada membuat kaca baru dari pasir."
+  },
+  {
+    "id": "q15",
+    "pertanyaan": "Popok bayi sekali pakai (diapers) itu super praktis, tapi sangat menyusahkan bumi kita karena...",
+    "opsi": ["Baunya mengganggu lapisan ozon", "Mengandung gel sintetis penyerap yang butuh 250-500 tahun untuk hancur", "Sangat mudah meledak jika terkena panas", "Ukurannya terlalu besar"],
+    "jawabanBenar": 1,
+    "penjelasan": "Popok bayi mengandung lapisan plastik dan gel super absorben sintetis (SAP) yang menjadikannya salah satu penyumbang sampah residu terbesar yang sulit terurai."
+  },
+  {
+    "id": "q16",
+    "pertanyaan": "Apa yang pasti terjadi jika kamu malas memilah dan langsung mencampur sampah sisa lauk pauk dengan sampah kertas/plastik di satu kantong?",
+    "opsi": ["Sampah anorganik jadi basah, bau, dan nilainya hancur (sulit didaur ulang)", "Mereka akan membentuk pupuk super", "Kertasnya akan mengering sendiri", "Sampahnya akan menguap"],
+    "jawabanBenar": 0,
+    "penjelasan": "Mencampur sampah membuat kertas dan plastik berkualitas baik menjadi kotor, bau busuk, dan akhirnya terpaksa dibuang ke TPA karena pengepul tidak mau mengambilnya."
+  },
+  {
+    "id": "q17",
+    "pertanyaan": "Sebagai warga +62 yang bijak, membuang sampah daun atau plastik dengan cara DIBAKAR di halaman rumah adalah tindakan yang...",
+    "opsi": ["Cerdas, cepat, dan praktis!", "Keren karena asapnya mengusir nyamuk", "Berbahaya, karena asap plastiknya mengandung dioksin yang memicu kanker", "Disarankan oleh para ahli lingkungan dunia"],
+    "jawabanBenar": 2,
+    "penjelasan": "Membakar sampah sembarangan (terutama plastik) menghasilkan zat beracun (dioksin dan furan) yang jika terhirup dapat merusak paru-paru dan memicu kanker."
+  },
+  {
+    "id": "q18",
+    "pertanyaan": "Di sebuah kedai kopi, kamu ditawari sedotan. Kamu menolak dengan sopan karena kamu membawa sedotan bambu. Aksi penolakan ini disebut prinsip...",
+    "opsi": ["Replant", "Recycle", "Refuse (Menolak)", "Rot"],
+    "jawabanBenar": 2,
+    "penjelasan": "Refuse (menolak) adalah langkah paling awal dan terpenting dalam pengelolaan sampah. Mencegah sampah masuk ke dalam kehidupan kita lebih baik daripada mendaur ulangnya!"
+  },
+  {
+    "id": "q19",
+    "pertanyaan": "Kamu memisahkan botol parfum yang terbuat dari kaleng aerosol. Sampah jenis kaleng bertekanan ini tidak boleh ditekan atau dibakar karena...",
+    "opsi": ["Akan merubah warna apinya jadi pelangi", "Sangat mudah meledak", "Nanti baunya terlalu wangi", "Tidak ada alasan khusus"],
+    "jawabanBenar": 1,
+    "penjelasan": "Kaleng aerosol seperti parfum, semprotan serangga, atau cat pilox masih menyimpan gas bertekanan tinggi. Jika terpapar panas tinggi, kaleng ini bisa meledak hebat."
+  },
+  {
+    "id": "q20",
+    "pertanyaan": "Menanam bibit sayur-sayuran atau pohon buah di pot-pot pekarangan rumah adalah wujud nyata dari aksi...",
+    "opsi": ["Reduce", "Replant (Menanam Kembali)", "Replace", "Recycle"],
+    "jawabanBenar": 1,
+    "penjelasan": "Replant tidak hanya menanam di hutan, tetapi juga di pekarangan rumah. Selain menghijaukan bumi, menanam sayur sendiri juga mengurangi sampah plastik kemasan dari pasar!"
+  }
+]
