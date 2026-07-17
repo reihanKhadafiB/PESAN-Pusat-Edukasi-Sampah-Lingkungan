@@ -390,12 +390,11 @@ export default function TTSGame() {
         {gameState !== 'menu' && gridData && (
           <>
             {/* Grid Area */}
-            <div className="flex-1 flex items-center justify-center overflow-auto p-4 bg-white rounded-2xl shadow-sm border border-slate-100">
+            <div className="flex-1 w-full overflow-auto p-2 sm:p-4 bg-white rounded-2xl shadow-sm border border-slate-100">
               <div 
-                className="grid gap-[2px] p-2 bg-slate-200 rounded-lg shadow-inner"
+                className="grid gap-[1px] sm:gap-[2px] p-2 bg-slate-200 rounded-lg shadow-inner w-max mx-auto"
                 style={{
-                  gridTemplateColumns: `repeat(${gridData.grid[0].length}, max-content)`,
-                  width: 'fit-content'
+                  gridTemplateColumns: `repeat(${gridData.grid[0].length}, max-content)`
                 }}
               >
                 {gridData.grid.map((row, r) => (
