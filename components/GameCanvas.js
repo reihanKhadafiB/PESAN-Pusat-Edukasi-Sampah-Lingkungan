@@ -40,8 +40,7 @@ const FallingTrash = ({ item, onMiss }) => {
       </div>
     </motion.div>
   );
-});
-FallingTrash.displayName = 'FallingTrash';
+};
 
 const DraggableBin = memo(({ binRef, containerRef }) => {
   return (
