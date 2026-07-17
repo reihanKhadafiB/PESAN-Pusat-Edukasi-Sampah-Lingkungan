@@ -34,7 +34,7 @@ const FallingTrash = ({ item, onMiss }) => {
       transition={{ duration: item.duration, ease: 'linear' }}
       onAnimationComplete={() => onMiss(item.id)}
     >
-      <div className="text-4xl sm:text-5xl filter drop-shadow-xl hover:scale-110 transition-transform">{item.emoji}</div>
+      <div className="text-4xl sm:text-5xl hover:scale-110 transition-transform">{item.emoji}</div>
       <div className="bg-white/95 text-[10px] font-bold px-2 py-0.5 rounded-full shadow-md text-slate-700 mt-1 pointer-events-none text-center whitespace-nowrap border border-slate-100">
         {item.name}
       </div>
@@ -159,14 +159,15 @@ export default function GameCanvas() {
         }
       });
     }
-    requestRef.current = requestAnimationFrame(checkCollisions);
   }, [gameState, handleCatch]);
 
   useEffect(() => {
     if (gameState === 'playing') {
-      requestRef.current = requestAnimationFrame(checkCollisions);
+      // Throttle collision checks to 20 times per second instead of 60 FPS
+      // This massively saves mobile CPU and prevents lag!
+      requestRef.current = setInterval(checkCollisions, 50);
     }
-    return () => cancelAnimationFrame(requestRef.current);
+    return () => clearInterval(requestRef.current);
   }, [gameState, checkCollisions]);
 
   return (
@@ -325,27 +326,19 @@ export default function GameCanvas() {
           className="absolute z-20 w-32 h-28 cursor-grab active:cursor-grabbing flex flex-col items-center justify-end group"
         >
           {/* Bin 3D Visual (Jaring-jaring) */}
-          <div className="relative w-full h-full transform-style-3d group-active:scale-95 transition-transform duration-100 drop-shadow-xl">
+          <div className="relative w-full h-full transform-style-3d group-active:scale-95 transition-transform duration-100">
             {/* Bin Rim (Top) - Ellipse to simulate 3D perspective */}
-            <div className="absolute top-0 w-full h-10 bg-slate-800/50 rounded-[50%] border-4 border-slate-700 z-10 shadow-inner" />
+            <div className="absolute top-0 w-full h-8 sm:h-10 bg-slate-700 rounded-[50%] border-4 border-slate-800 z-10 shadow-sm" />
             
-            {/* Bin Inside Base (Bottom visible through mesh) */}
+            {/* Bin Inside Base */}
             <div className="absolute bottom-1 left-[5%] w-[90%] h-6 bg-slate-900 rounded-[50%] z-0" />
 
-            {/* Bin Body (Wire Mesh) */}
+            {/* Bin Body (Solid color instead of heavy gradient mesh) */}
             <div 
-              className="absolute top-5 left-[5%] w-[90%] h-[calc(100%-1.25rem)] rounded-b-[1.25rem] border-4 border-t-0 border-slate-700 flex flex-col items-center justify-center overflow-hidden z-0 shadow-[inset_-12px_0_20px_rgba(0,0,0,0.5),inset_12px_0_20px_rgba(0,0,0,0.5)]"
-              style={{
-                backgroundColor: 'rgba(30, 41, 59, 0.4)', // slate-800 semi-transparent
-                backgroundImage: `
-                  linear-gradient(to right, #475569 2px, transparent 2px),
-                  linear-gradient(to bottom, #475569 2px, transparent 2px)
-                `,
-                backgroundSize: '10px 10px'
-              }}
+              className="absolute top-4 sm:top-5 left-[5%] w-[90%] h-[calc(100%-1rem)] rounded-b-[1rem] sm:rounded-b-[1.25rem] border-4 border-t-0 border-slate-800 flex flex-col items-center justify-center overflow-hidden z-0 bg-slate-600 shadow-md"
             >
               {/* Text label */}
-              <div className="bg-slate-900/95 px-3 py-1 rounded-full border border-slate-600 text-slate-100 font-extrabold text-[10px] tracking-widest shadow-lg">
+              <div className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700 text-slate-100 font-bold text-[10px] tracking-wider shadow-sm">
                 GESER
               </div>
             </div>
