@@ -266,34 +266,16 @@ export default function TTSGame() {
     const isHorizontal = word.isHorizontal;
     
     if (e.key === 'Backspace') {
-      e.preventDefault();
-      setUserInputs(prev => ({ ...prev, [`${r},${c}`]: '' }));
-      
-      // Move back
-      let prevR = r, prevC = c;
-      if (isHorizontal && c > word.col) prevC = c - 1;
-      else if (!isHorizontal && r > word.row) prevR = r - 1;
-      
-      inputRefs.current[`${prevR},${prevC}`]?.focus();
-    } else if (e.key.length === 1 && e.key.match(/[a-zA-Z]/)) {
-      e.preventDefault();
-      const inputChar = e.key.toUpperCase();
-      setUserInputs(prev => ({ ...prev, [`${r},${c}`]: inputChar }));
-      
-      if (inputChar === gridData.grid[r][c]) {
-        playTTSCorrect();
+      if (!userInputs[`${r},${c}`]) {
+        e.preventDefault();
+        let prevR = r, prevC = c;
+        if (isHorizontal && c > word.col) prevC = c - 1;
+        else if (!isHorizontal && r > word.row) prevR = r - 1;
+        inputRefs.current[`${prevR},${prevC}`]?.focus();
       } else {
-        playTTSWrong();
+        setUserInputs(prev => ({ ...prev, [`${r},${c}`]: '' }));
       }
-      
-      // Move forward
-      let nextR = r, nextC = c;
-      if (isHorizontal && c < word.col + word.word.length - 1) nextC = c + 1;
-      else if (!isHorizontal && r < word.row + word.word.length - 1) nextR = r + 1;
-      
-      inputRefs.current[`${nextR},${nextC}`]?.focus();
     } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
-      // Allow navigation
       e.preventDefault();
       let nextR = r, nextC = c;
       if (isHorizontal && c < word.col + word.word.length - 1) nextC = c + 1;
@@ -305,6 +287,30 @@ export default function TTSGame() {
       if (isHorizontal && c > word.col) prevC = c - 1;
       else if (!isHorizontal && r > word.row) prevR = r - 1;
       inputRefs.current[`${prevR},${prevC}`]?.focus();
+    }
+  };
+
+  const handleInputChange = (e, r, c) => {
+    const val = e.target.value;
+    const inputChar = val.slice(-1).toUpperCase(); // Take last typed char
+    
+    if (inputChar.match(/[A-Z]/)) {
+      setUserInputs(prev => ({ ...prev, [`${r},${c}`]: inputChar }));
+      
+      if (inputChar === gridData.grid[r][c]) {
+        playTTSCorrect();
+      } else {
+        playTTSWrong();
+      }
+      
+      // Move forward automatically
+      const word = getActiveWord();
+      if (word) {
+        let nextR = r, nextC = c;
+        if (word.isHorizontal && c < word.col + word.word.length - 1) nextC = c + 1;
+        else if (!word.isHorizontal && r < word.row + word.word.length - 1) nextR = r + 1;
+        inputRefs.current[`${nextR},${nextC}`]?.focus();
+      }
     }
   };
 
@@ -388,7 +394,7 @@ export default function TTSGame() {
               <div 
                 className="grid gap-[2px] p-2 bg-slate-200 rounded-lg shadow-inner"
                 style={{
-                  gridTemplateColumns: `repeat(${gridData.grid[0].length}, minmax(0, 1fr))`,
+                  gridTemplateColumns: `repeat(${gridData.grid[0].length}, max-content)`,
                   width: 'fit-content'
                 }}
               >
@@ -428,10 +434,9 @@ export default function TTSGame() {
                         <input
                           ref={el => inputRefs.current[`${r},${c}`] = el}
                           type="text"
-                          maxLength={1}
                           className="w-full h-full text-center bg-transparent outline-none cursor-pointer placeholder-transparent"
                           value={userInputs[`${r},${c}`] || ''}
-                          onChange={() => {}} // Handled by onKeyDown to manage focus
+                          onChange={(e) => handleInputChange(e, r, c)}
                           onKeyDown={(e) => handleKeyDown(e, r, c)}
                           onFocus={() => handleCellClick(r, c)}
                         />
