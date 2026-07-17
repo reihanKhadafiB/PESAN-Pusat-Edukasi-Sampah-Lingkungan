@@ -63,9 +63,9 @@ export default function PageSplash() {
             background: 'linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 50%, #f0fdfa 100%)',
           }}
         >
-          {/* Background decorative blobs */}
-          <div className="absolute top-[-5%] left-[-5%] w-72 h-72 rounded-full bg-green-200/50 blur-[80px] pointer-events-none" />
-          <div className="absolute bottom-[-5%] right-[-5%] w-72 h-72 rounded-full bg-emerald-200/50 blur-[80px] pointer-events-none" />
+          {/* Decorative shapes using basic gradients instead of expensive CSS blur filters to prevent mobile lag */}
+          <div className="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-gradient-to-br from-green-200 to-transparent opacity-40 pointer-events-none" />
+          <div className="absolute -bottom-32 -right-32 w-96 h-96 rounded-full bg-gradient-to-tl from-emerald-200 to-transparent opacity-40 pointer-events-none" />
 
           {/* Main card */}
           <motion.div
@@ -78,11 +78,11 @@ export default function PageSplash() {
             <div className="relative flex items-center justify-center mb-8">
               <div
                 className="absolute w-28 h-28 rounded-full border-[3px] border-green-100 border-t-green-500"
-                style={{ animation: 'spin 1.4s linear infinite' }}
+                style={{ animation: 'spin 1.4s linear infinite', willChange: 'transform' }}
               />
               <div
                 className="absolute w-20 h-20 rounded-full border-[3px] border-emerald-100 border-b-emerald-400"
-                style={{ animation: 'spin 0.9s linear infinite reverse' }}
+                style={{ animation: 'spin 0.9s linear infinite reverse', willChange: 'transform' }}
               />
               <div className="relative z-10 w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center shadow-xl shadow-green-500/30">
                 <svg className="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 24 24">
