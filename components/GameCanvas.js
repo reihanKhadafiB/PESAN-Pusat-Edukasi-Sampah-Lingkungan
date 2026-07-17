@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, memo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, RotateCcw, Trophy, Clock, Target, ArrowRight, ShieldCheck, Heart, AlertTriangle } from 'lucide-react';
 import { playCatchSound, playMissSound, playWaveCompleteSound, playWinSound, playGameOverSound } from '../lib/sound';
@@ -40,7 +40,42 @@ const FallingTrash = ({ item, onMiss }) => {
       </div>
     </motion.div>
   );
-};
+});
+FallingTrash.displayName = 'FallingTrash';
+
+const DraggableBin = memo(({ binRef, containerRef }) => {
+  return (
+    <motion.div
+      ref={binRef}
+      drag="x"
+      dragConstraints={containerRef}
+      dragElastic={0.1}
+      dragMomentum={false}
+      initial={{ x: 0, y: 390 }}
+      className="absolute z-20 w-32 h-28 cursor-grab active:cursor-grabbing flex flex-col items-center justify-end group"
+    >
+      {/* Bin 3D Visual */}
+      <div className="relative w-full h-full transform-style-3d group-active:scale-95 transition-transform duration-100">
+        {/* Bin Rim (Top) - Ellipse to simulate 3D perspective */}
+        <div className="absolute top-0 w-full h-8 sm:h-10 bg-slate-700 rounded-[50%] border-4 border-slate-800 z-10 shadow-sm" />
+        
+        {/* Bin Inside Base */}
+        <div className="absolute bottom-1 left-[5%] w-[90%] h-6 bg-slate-900 rounded-[50%] z-0" />
+
+        {/* Bin Body (Solid color instead of heavy gradient mesh) */}
+        <div 
+          className="absolute top-4 sm:top-5 left-[5%] w-[90%] h-[calc(100%-1rem)] rounded-b-[1rem] sm:rounded-b-[1.25rem] border-4 border-t-0 border-slate-800 flex flex-col items-center justify-center overflow-hidden z-0 bg-slate-600 shadow-md"
+        >
+          {/* Text label */}
+          <div className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700 text-slate-100 font-bold text-[10px] tracking-wider shadow-sm">
+            GESER
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+});
+DraggableBin.displayName = 'DraggableBin';
 
 export default function GameCanvas() {
   const [gameState, setGameState] = useState('menu'); // menu, playing, waveComplete, gameover
@@ -316,34 +351,7 @@ export default function GameCanvas() {
           />
         ))}
 
-        <motion.div
-          ref={binRef}
-          drag="x"
-          dragConstraints={containerRef}
-          dragElastic={0.1}
-          dragMomentum={false}
-          initial={{ x: 0, y: 390 }}
-          className="absolute z-20 w-32 h-28 cursor-grab active:cursor-grabbing flex flex-col items-center justify-end group"
-        >
-          {/* Bin 3D Visual (Jaring-jaring) */}
-          <div className="relative w-full h-full transform-style-3d group-active:scale-95 transition-transform duration-100">
-            {/* Bin Rim (Top) - Ellipse to simulate 3D perspective */}
-            <div className="absolute top-0 w-full h-8 sm:h-10 bg-slate-700 rounded-[50%] border-4 border-slate-800 z-10 shadow-sm" />
-            
-            {/* Bin Inside Base */}
-            <div className="absolute bottom-1 left-[5%] w-[90%] h-6 bg-slate-900 rounded-[50%] z-0" />
-
-            {/* Bin Body (Solid color instead of heavy gradient mesh) */}
-            <div 
-              className="absolute top-4 sm:top-5 left-[5%] w-[90%] h-[calc(100%-1rem)] rounded-b-[1rem] sm:rounded-b-[1.25rem] border-4 border-t-0 border-slate-800 flex flex-col items-center justify-center overflow-hidden z-0 bg-slate-600 shadow-md"
-            >
-              {/* Text label */}
-              <div className="bg-slate-900 px-3 py-1 rounded-full border border-slate-700 text-slate-100 font-bold text-[10px] tracking-wider shadow-sm">
-                GESER
-              </div>
-            </div>
-          </div>
-        </motion.div>
+        <DraggableBin binRef={binRef} containerRef={containerRef} />
         
         {/* Ground */}
         <div className="absolute bottom-0 left-0 right-0 h-4 bg-emerald-600 shadow-[0_-2px_15px_rgba(16,185,129,0.3)] z-10" />
