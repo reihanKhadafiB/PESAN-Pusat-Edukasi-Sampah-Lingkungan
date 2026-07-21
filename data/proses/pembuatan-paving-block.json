@@ -1,19 +1,36 @@
 {
   "id": "pembuatan-paving-block",
-  "judul": "Pembuatan Paving Block dari Plastik",
-  "kategori": "anorganik",
-  "gambar": "/images/proses/paving-block.webp",
-  "deskripsi": "Memanfaatkan sampah plastik keras menjadi paving block.",
+  "judul": "Paving Block dari Sampah Kresek",
+  "kategori": "Anorganik",
+  "gambar": "/images/waste/kantong-plastik.webp",
+  "deskripsi": "Pemanfaatan massa tumpukan besar sampah limbah plastik lapis tunggal (Kresek) sebagai matriks perekat agregat pasir menggantikan bubuk semen beton menjadi blok paving solid trotoar.",
+  "prinsipDasar": "Pemanfaatan degradasi termal limbah termoplastik Low-Density Polyethylene (LDPE/Kresek) bermutu rendah. Saat meleleh pada suhu 150-200°C, molekul plastik kresek bertindak sebagai pengikat cairan lengket (lem aspal pengikat super kental/binder) untuk mengikat matriks kristal agregat batuan (pasir) menjadi formasi komposit yang sekeras batu beton.",
+  "alatBahan": "Perapian tungku kayu skala besar (lapangan luar), wajan wajan baja besi cor raksasa tebal khusus (Jangan wajan masak almunium!), sendok pengaduk baja beton kasar tebal, cetakan paving baja heksagonal press berat, godam tumbuk press logam, oli pelumas bekas (pelepas cetak).\nBahan Baku: Puluhan Kilogram Kresek Tipis tertolak (bukan botol!), Pasir Ayak Sungai berbutir sedang murni (kering total bebas lumpur), sedikit sisa ranting daun tak masalah.",
+  "rasioKritis": "Sangat Krusial! Rasio Timbangan = 1 Kilogram Plastik Kresek Leleh : 2 hingga 3 Kilogram Pasir Abu Batu. Rasio jumlah pasir yang berlebih 3 Kg lebih per kilo plastik menyebabkan cairan aspal pengikat tidak cukup menutupi setiap butir pasir (Paving Blocknya kekurangan lem pengikat murni, ketika pavingnya dibanting jatuh dari pinggang, langsung hancur ambyar seketika seperti debu).",
   "langkah": [
-    "Kumpulkan dan cacah sampah plastik",
-    "Lelehkan plastik",
-    "Campurkan dengan pasir (1:3)",
-    "Tuang ke cetakan",
-    "Keringkan"
+    "DIRUANG TERBUKA LAPANGAN PANAS PENUH. Siapkan tungku perapian api kayu bakar yang konstan membara.",
+    "Panaskan plat wajan cor baja perlahan. Taburkan segenggam tipis pelapis dasar pasir pelicin ke wajan (Mencegah plastik lengket langsung menempel membakar wajan).",
+    "Masukkan perlahan segenggam demi segenggam plastik kresek bekas ke pusaran titik panas wajan.",
+    "Aduk perlahan. Tumpukan plastik itu perlahan mengerut menyusut (shrink) dan seketika berubah mencair mendidih menjadi 'Aspal Hitam Cair Kental Lengket' berviskositas tajam pekat.",
+    "Saat volume aspal plastik cair tersebut cukup, MASUKKAN dengan sekop pasir agregat berbanding 1 : 2.5 secara cekatan.",
+    "Tenaga Ekstra: Gunakan otot lengan untuk mengaduk secepat kilat (sekitar 3-4 menit) adonan tersebut agar homogen terdistribusi (Fase cairan komposit ini cepat menggumpal menolak bentuk sebelum beku di luar tungku).",
+    "Sementara itu, kuas rekan satu tim untuk mengoleskan cetakan besi tebal pres paving (Moulding Paving) dengan tumpahan Oli Bekas Motor (Fungsi pelumas demolding agent).",
+    "Angkat sekop adonan panas mendidih 200 derajat ini, letakkan presis ke dalam cetakan baja panas.",
+    "Pukul bertubi-tubi dengan alat godam batang cetak pemberat (Pressing Padat Kompresi). Makin kencang pukulannya, kepadatan dan durabilitas paving semakin absolut anti pecah retak.",
+    "Biarkan suhu turun di udara terbuka perlahan sekitar 5-10 menit.",
+    "Buka engsel penjepit cetakan, cabut cetakan paving block murni dan lempar / dorong dengan gagang obeng untuk merilis paving ke tumpukan tanah. Ulangi proses ini."
   ],
-  "hasilAkhir": "Paving block ramah lingkungan",
-  "sumberReferensi": [
-    "https://www.itb.ac.id/",
-    "https://ejournal.utp.ac.id/"
-  ]
+  "failurePoint": "Temperatur Perapian Melesat Ekstrem (Api menyambar plastik) → Plastik bukannya meleleh jadi aspal kental perekat, melainkan LANGSUNG TERBAKAR terbakar jadi arang hangus rapuh karbonisasi (Gagal total pengikat dan menghasilkan Asap Hitam Ekstrem Kebakaran). Pengadukan Pasir Yang Dingin Atau Basah → Akan meledak letup uap mendidih panas ke wajah pengguna. (Pastikan Pasir Tembok / Sungai BENAR BENAR KERING TANPA TETESAN EMBUN sebelum dimasukkan).",
+  "keselamatanKerja": "Risiko Bahaya Luka Bakar Tingkat Berat Permanen. Lelehan aspal termoplastik (suhu titik didih 200°C) ini sangat berbahaya, lengket layaknya cairan napalm lava gunung berapi menempel pada kulit. WAJIB menggunakan: Sepatu pelindung konstruksi, celana jins tebal kasar pelindung lutut tangan, kacamata goggle, penutup pelindung lengan wajah dan MASKER RESPIRATOR FILTER tebal ganda untuk menahan partikel asap fume beracun.",
+  "analisisEkonomi": {
+    "totalBiaya": "Modal Setup Cetakan Baja Cor (Rp 500rb), Tenaga Kerja (Rp 100.000 / tukang kayu berat harian), Biaya Kayu Bakar sangat boros.",
+    "hpp": "Rp 2.000 - Rp 3.500 per keping paving block (Sangat membengkak akibat biaya kalori pemanas & gaji buruh fisik kasar tenaga dalam).",
+    "hargaJual": "Harga Paving Semen Konvensional Biasa: HANYA Rp 1.500 - Rp 2.800 per keping.",
+    "catatan": "Dari segi murni komersial bisnis HPP, paving block plastik SECARA UMUM ADALAH BISNIS RUGI tanpa dukungan intervensi dana subsidi CSR pemerintah atau NGO lingkungan (karena ongkos pemanasan ekstrem bahan bakar / tungku pengadukan manual fisik menguras tenaga). Nilai jual paving ini murni terletak pada klaim lingkungan solusi darurat pengolahan massal singkirkan sampah kresek tertolak TPS/TPA yang menumpuk menggunung per ton, bukan sekedar meraup profit berjualan margin trotoar (Subsidi Silang Reduksi Eksternalitas Lingkungan)."
+  },
+  "diagnostik": [
+    { "indikator": "Kuat Tekan Banting", "berhasil": "Dilempar kuat dari atap lantai 2 tidak patah sedikit pun (Massa keras anti getar)", "gagal": "Bila dibanting sedikit keras ke aspal paving langsung hancur ambyar belah retak menjadi debu pasir kering berserakan" },
+    { "indikator": "Tekstur Visual Permukaan Bawah", "berhasil": "Mampat, merata mulus padat, seluruh bagian titik rongga terisi rata menutupi kulit batu", "gagal": "Plastik menggumpal mengerut jelek di satu sisi sudut, sedangkan sisi sudut bawah lain berongga rapuh hanya tumpukan pasir tanpa pengikat aspal hitam" }
+  ],
+  "hasilAkhir": "Paving Block Pijakan Komposit Ultra Ringan Tahan Air"
 }

@@ -1,0 +1,28 @@
+{
+  "id": "daur-ulang-tutup-botol",
+  "judul": "Gantungan Kunci dari Tutup Botol Plastik",
+  "kategori": "Anorganik",
+  "gambar": "/images/proses/gantungan-kunci.png",
+  "deskripsi": "Mengubah tutup botol plastik bekas menjadi gantungan kunci estetik melalui proses daur ulang mekanis (thermoforming sederhana).",
+  "prinsipDasar": "Ini adalah proses thermoforming sederhana — plastik tutup botol (biasanya HDPE/PP) dilelehkan memakai panas setrika sampai menyatu, lalu dicetak ulang.",
+  "alatBahan": "Tutup botol plastik, cutter, cetakan bentuk, pembolong kertas, gantungan kunci (ring), gunting, setrika, baking paper.",
+  "langkah": [
+    "Bersihkan tutup botol → cuci & keringkan (penting, karena kotoran/minyak bikin plastik gosong/tidak menyatu rapi saat disetrika).",
+    "Potong jadi bagian kecil pakai cutter untuk mempermudah pelelehan merata.",
+    "Susun potongan di atas baking paper sesuai warna/pola.",
+    "Tutup dengan baking paper lagi (baking paper = release layer, mencegah plastik lengket ke setrika).",
+    "Setrika suhu rendah–sedang, tekan merata sampai menyatu jadi lembaran.",
+    "Cetak bentuk pakai cetakan (bintang, hati, dll) selagi masih lunak/panas.",
+    "Rapikan sisa pinggiran pakai gunting/cutter.",
+    "Lubangi bagian atas dengan pembolong kertas untuk tempat ring.",
+    "Pasang ring gantungan kunci."
+  ],
+  "failurePoint": "Suhu setrika terlalu tinggi → plastik meleleh berlebihan/gosong dan berbau (fume berbahaya jika PVC ikut tercampur); Suhu terlalu rendah → potongan tidak menyatu jadi rapuh dan pecah saat dicetak. Jarak lubang ring juga tidak boleh terlalu dekat tepi, kalau tidak akan sobek.",
+  "analisisEkonomi": {
+    "totalBiaya": "Rp 21.102 (30 pcs)",
+    "hpp": "Rp 700 / pcs",
+    "hargaJual": "Rp 3.000",
+    "catatan": "Margin mencapai ~77% atau Rp2.300/pcs. Perhitungan HPP di sini tidak memasukkan biaya tenaga kerja (labor cost). Bahan baku tutup botol dihitung Rp0 karena limbah. Biaya dominan justru di aksesoris ring. Kalau produksi diskalakan untuk komersial, margin ini bisa menyusut karena waktu kerja manusia harus dihargai."
+  },
+  "hasilAkhir": "Gantungan Kunci Daur Ulang Estetik"
+}

@@ -1,18 +1,22 @@
 {
   "id": "daur-ulang-kaca",
-  "judul": "Daur Ulang Kaca",
-  "kategori": "anorganik",
-  "gambar": "/images/proses/daur-ulang-kaca.webp",
-  "deskripsi": "Proses daur ulang botol dan pecahan kaca.",
+  "judul": "Upcycling Pecahan Kaca (Kaca Hias Mozaik & Sea Glass)",
+  "kategori": "Anorganik",
+  "gambar": "/images/waste/pecahan-kaca-new.png",
+  "deskripsi": "Mendaur ulang limbah beling atau pecahan botol sirup berbahaya menjadi produk mozaik tempel dekoratif atau permata laut buatan.",
+  "prinsipDasar": "Pecahan beling adalah keramik amorf silika yang tidak akan pernah lapuk biologis hingga sejuta tahun. Pemanfaatannya di tahap hulu/komunal adalah modifikasi fisik (bukan peleburan termal 1500 derajat celcius) melalui teknik cementing matriks (pengeleman bata) atau abrasi mekanik putar lambat (tumbling).",
+  "alatBahan": "Metode Tumbling/Abrasi: Mesin Rock Tumbler (tabung putar), pasir silika tajam/silicon carbide grit, air jernih, serpihan kaca botol.\nMetode Cementing Mozaik: Pecahan kaca botol aneka warna, palu besi godam medium, KAIN KANVAS TEBAL/GONIA, semen putih pelapis nat (Tile Grout), lem silikon khusus kaca/epoxy, media dasar tempel (pot tanah liat kusam / kanvas kayu triplek).",
+  "rasioKritis": "Campuran Semen Pengisi Celah (Grout): 1 bagian bubuk semen nat : 0.3 bagian air. Adonan harus bertekstur kental seperti selai kacang! Adonan yang terlalu encer akan merosot jatuh bersama serpihan kaca licin. Terlalu kering akan menyebabkan kekosongan struktur rongga.",
   "langkah": [
-    "Kumpulkan dan pilah berdasarkan warna",
-    "Hancurkan jadi pecahan kecil (cullet)",
-    "Cuci bersih",
-    "Lebur di tungku suhu tinggi",
-    "Cetak produk baru"
+    "Cuci bersih botol/pecahan kaca. Rendam air panas untuk menghilangkan stiker kertas dan membuang lapisan lengket pemanis.",
+    "Penghancuran Aman: Masukkan pecahan kasar KEDALAM selubung kain karung kanvas super tebal. Pukul rata perlahan menggunakan palu. JANGAN MENGHANCURKAN kaca secara telanjang tanpa kain bungkusan pembatas!",
+    "(Metode Opsional Sea Glass): Masukkan 3 genggam butir beling (ukuran 1cm) ke tabung Rock Tumbler bersama air dan abu pasir silika. Biarkan mesin berputar 24/7 non-stop selama 7-14 hari untuk 'menggerinda' ujung kaca menjadi mutiara tumpul yang eksotis bagaikan kaca pantai.",
+    "(Metode Cementing Mozaik Tempel): Aplikasikan titik-titik kecil lem silikon/epoxy khusus keramik ke pot dasar. Tempelkan serpihan-serpihan kaca warna-warni secara telaten mengikuti konsep pola gambar.",
+    "Biarkan lem silikon dasar mengering solid (curing time 12-24 jam). Jangan langsung menempel semen nat!",
+    "Aplikasikan adonan semen pengisi (grout putih) melumuri seluruh sela-sela kasar antar pecahan kaca menggunakan spatula karet keras. Jangan takut kaca tertutup semen.",
+    "Setelah 20 menit saat semen nat setengah kering mendempul, basahi spons bersih halus. Gosok dan bilas perlahan ke atas sisa semen penutup kaca. Bagian kaca mengkilap dan indah akan menampakkan diri rata sejajar dengan semen nat pembatas."
   ],
-  "hasilAkhir": "Botol kaca baru, pecahan kaca (cullet)",
-  "sumberReferensi": [
-    "https://id.wikipedia.org/wiki/Daur_ulang_kaca"
-  ]
+  "keselamatanKerja": "RISIKO TRAUMA SAYATAN DAN PERNAPASAN PARU SANGAT TINGGI (KRONIS). Saat menghancurkan kaca (pukulan), partikel debu kaca mikroskopis kristal silika beterbangan. Terhirupnya bubuk kaca mikroskopis dalam jangka panjang akan merobek alveolus paru-paru dan memicu pendarahan pernapasan permanen (Penyakit Silicosis). WAJIB mutlak menggunakan MASKER N95 berfilter, Kacamata Lab Tertutup Full Cover (Safety Goggles rapat), dan Sarung Tangan Kulit Sapi tebal anti-tembus (Cut-Resistant EN388 Level 5).",
+  "rootCause": "Banyak inisiatif mozaik kaca gagal komersial karena pembuat sering menempel kaca tajam ke dinding hias dan meninggalkannya BEGITU SAJA tanpa proses Grouthing (semen pengisi batas). Meninggalkan tonjolan pecahan kaca tajam menonjol pada tembok hias publik adalah malpraktek keamanan desain tata letak.",
+  "hasilAkhir": "Karya Seni Mozaik Pot Dinding / Perhiasan Sea-Glass."
 }

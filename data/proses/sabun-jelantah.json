@@ -1,0 +1,24 @@
+{
+  "id": "sabun-jelantah",
+  "judul": "Sabun dari Minyak Jelantah",
+  "kategori": "B3",
+  "gambar": "/images/proses/sabun-jelantah.png",
+  "deskripsi": "Pembuatan sabun batangan fungsional menggunakan minyak jelantah bekas pakai melalui reaksi saponifikasi murni.",
+  "prinsipDasar": "Reaksi kimia saponifikasi: Proses mereaksikan trigliserida (minyak) dengan basa kuat (NaOH/soda api) yang akan menghasilkan sabun (garam asam lemak) dan gliserol.",
+  "alatBahan": "Timbangan digital, wadah plastik tebal/stainless (jangan aluminium!), pengaduk, cetakan, sarung tangan karet, masker.\nBahan: 500g minyak jelantah tersaring, 80g NaOH (soda api), 180g air mineral, pewangi/pewarna (opsional).",
+  "rasioKritis": "Minyak 500g : NaOH 80g : Air 180g (Rasio ≈ 6,25 : 1 : 2,25). Ini rasio krusial! Kalau NaOH kurang, sabun jadi lembek dan berminyak (belum tersaponifikasi sempurna). Kalau NaOH berlebih, sabun jadi sangat kaustik dan bisa membuat kulit terbakar/iritasi.",
+  "langkah": [
+    "Saring 500g minyak jelantah (filtrasi partikel makanan — kalau tidak disaring, kotoran akan mengendap di sabun dan bisa jadi titik pembusukan).",
+    "Larutkan 80g NaOH ke 180g air mineral secara perlahan di ruang terbuka, tunggu hingga suhu larutan turun/dingin.",
+    "Campurkan minyak jelantah dengan larutan NaOH yang sudah mendingin secara perlahan.",
+    "Aduk perlahan tapi konsisten (bisa gunakan hand blender) sampai adonan mengental seperti mayones (fase 'trace' — tanda reaksi saponifikasi mulai terjadi).",
+    "Tambahkan pewangi atau pewarna jika diperlukan.",
+    "Tuang adonan sabun ke dalam cetakan silikon atau wadah berlapis plastik.",
+    "Diamkan selama 24-48 jam sampai mengeras padat, lalu keluarkan dari cetakan.",
+    "Curing (Pemeraman): Simpan sabun di tempat kering berangin selama 2-4 minggu sebelum dapat digunakan secara aman."
+  ],
+  "failurePoint": "CURING 2-4 MINGGU SANGAT PENTING. Reaksi kimia saponifikasi butuh waktu berminggu-minggu untuk selesai total dan pH turun ke level netral/aman. Jangan berasumsi proses selesai hanya karena output terlihat padat setelah dicetak! Jika dipakai sebelum masa curing tuntas, sisa NaOH bebas (residual lye) akan menyebabkan sensasi panas dan iritasi parah di kulit.",
+  "keselamatanKerja": "SANGAT BERBAHAYA! Wajib memakai sarung tangan karet panjang, kacamata pelindung, dan masker. Lakukan di area dengan ventilasi udara sangat baik. Hindari kontak langsung dengan NaOH (soda api) dan uap gas pelarutannya, karena reaksi ini bersifat eksotermik (melepas panas ekstrim) dan bersifat sangat korosif (menghancurkan jaringan tubuh). Selalu tuang NaOH ke dalam Air, BUKAN sebaliknya!",
+  "rootCause": "Minyak jelantah dikategorikan limbah B3 (Bahan Berbahaya Beracun). Membuangnya langsung ke saluran air atau tanah bukan sekadar menyumbat pipa, melainkan mencemari perairan secara kimiawi karena dapat menghalangi penetrasi cahaya matahari dan mengikat oksigen terlarut, yang berujung merusak ekosistem seluruh perairan.",
+  "hasilAkhir": "Sabun Batangan Fungsional (Pembersih Noda/Peralatan)"
+}

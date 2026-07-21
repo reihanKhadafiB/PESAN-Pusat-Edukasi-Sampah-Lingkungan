@@ -1,19 +1,31 @@
 {
   "id": "daur-ulang-plastik",
-  "judul": "Daur Ulang Plastik",
-  "kategori": "anorganik",
-  "gambar": "/images/proses/daur-ulang-plastik.webp",
-  "deskripsi": "Proses mengubah sampah plastik bekas menjadi produk baru.",
+  "judul": "Ekstrusi & Injeksi Plastik (Daur Ulang Termal Mekanis)",
+  "kategori": "Anorganik",
+  "gambar": "/images/waste/botol-pet.webp",
+  "deskripsi": "Mengubah sampah plastik termoplastik kaku yang tersortir menjadi produk padat desain kustom berskala komunal melalui pemanasan injeksi tabung.",
+  "prinsipDasar": "Penerapan rekayasa fisis berupa reduksi volume (Pencacahan mekanis/Shredding) dan transisi wujud fasa zat akibat degradasi termal terkontrol dalam tabung pemanas ekstruder, diakhiri dengan pencetakan tekanan fluida kental tinggi (Injection Molding).",
+  "alatBahan": "Alat Utama Mesin Precious Plastic: Mesin Shredder (pencacah mata pisau baja), Mesin Injeksi Termal Manual (tabung pemanas + tuas penekan fluida), Cetakan balok aluminium kustom model cetak CNC (Moulding blok logam). Bahan Baku Kunci: 100% Limbah Polimer Plastik Murni Jenis Tertentu Saja! (Contoh: Murni PP - Tutup Botol Galon Angka 5).",
   "langkah": [
-    "Kumpulkan dan pilah jenis plastik",
-    "Cuci bersih",
-    "Cacah jadi serpihan (flake)",
-    "Lebur di extruder",
-    "Cetak jadi pellet/bijih plastik"
+    "Sortir mutlak absolut! Pisahkan jenis material kemasan berdasar kodering segitiga polimer plastik bawah (Kode 2 HDPE atau 5 PP sering paling mudah).",
+    "Pencucian Ekstrem. Buang kertas label lem atau kotoran. Plastik cacah harus suci bersih dan 100% kering bebas uap air sebelum masuk lelehan (Jika lembap memicu gas memuai merusak alat ekstruder).",
+    "Giling bongkahan tutup botol bersih menggunakan Mesin Shredder berdaya torsi tinggi untuk menjadikannya keping serpihan pipih merata (ukuran flake 3mm - 8mm).",
+    "Panaskan tabung laras silinder injektor mesin secara termostat menuju ke titik leleh spesifik polimer plastiknya (Contoh Polimer PP Kode 5 = Temperatur Leleh Optimum Ekstrusi 220°C - 235°C).",
+    "Masukkan flake cacahan plastik pelan-pelan ke dalam hopper tabung panas injektor.",
+    "Biarkan waktu peleburan tercapai (~5-10 menit menunggu plastik meleleh mengental seperti pasta odol / madu padat).",
+    "Tempelkan corong injektor ke lubang katup cetakan mould aluminium dingin.",
+    "Tarik gagang dorong tuas mesin sekuat tenaga ke bawah secara kontinu (menembakkan/menyuntikkan cairan kental tebal polimer ke ruang cetakan mould).",
+    "Tahan tuas dalam tekanan injeksi absolut selama 5-10 detik. Lepaskan tuas.",
+    "Buka plat klem pendingin cetakan aluminium, cungkil hasil cetakan padat dengan gagang obeng secara perlahan (Demolding process)."
   ],
-  "hasilAkhir": "Biji plastik/pellet, serat poliester",
-  "sumberReferensi": [
-    "https://waste4change.com/",
-    "https://www.sucofindo.co.id/"
-  ]
+  "failurePoint": "MENGGABUNGKAN BERBEDA POLIMER KODE PLASTIK SECARA BERSAMAAN SAAT DILEBURKAN → Hukum termodinamika polimer dasar, lelehan molekul jenis PET dan PP akan SALING MENOLAK (Terjadi Fase Terpisah layaknya minyak dan air). Produk yang keluar 100% akan rapuh hancur patah dengan tangan kosong karena kohesi lemah, atau parahnya melekat abadi membakar selubung pipa injektor dalam (Menyumbat permanen fatal) karena perbedaan titik beku didihnya.",
+  "rootCause": "Sistem komunal sering melirik daur ulang termal sebagai peluru ajaib (Silver Bullet). Tapi, tantangan (Root Cause) utamanya bukanlah 'Kekurangan Mesin Injeksinya', melainkan INKONSISTENSI dan SULITNYA menjaga kemurnian sortasi limbah (Misal satu tutup botol secara keliru mengandung PVC terlempar).",
+  "keselamatanKerja": "AWAS BAHAYA MEMATIKAN DARI PLASTIK PVC KODE 3! Pemanasan sampah plastik berjenis PVC/Pipa Air pada suhu mesin (180C ke atas) akan mengeluarkan gas beracun mematikan Hydrogen Klorida Korosif pekat dan Dioxin penyebab kanker pernapasan mendadak. WAJIB Menggunakan filter pernapasan karbon aktif khusus industri uap cat (3M Respirator Filter) saat proses tabung pemanas ini dan WAJIB ventilasi cerobong angin terbuka.",
+  "analisisEkonomi": {
+    "totalBiaya": "Modal Mesin Awal: Rp 15.000.000 – Rp 40.000.000 (Mesin Custom Open-Source Precious Plastic). Beban Operasional: Listrik Heater Super Tinggi / Tenaga Ahli.",
+    "hpp": "Bervariasi berdasar energi KW/h (misal Rp 4.000 / produk cetak jam dinding kecil).",
+    "hargaJual": "Carabiner Plastik Ekologi: Rp 20.000. Pot Segi Enam Geometris: Rp 50.000. Papan Nama Skateboard Deck Ekologi: Rp 600.000 - Rp 1.500.000",
+    "catatan": "Skema ini adalah kategori 'Capital Intensive' (Padat Modal Khusus). Menggabungkan sains teknis dengan margin keuntungan eksponensial di pasar luar negeri / pasar hipster pecinta lingkungan premium (Green Premium Market). Produk plastik eceran injeksi komunal menarget ceruk niche market sadar desain dan sadar iklim (Ecodesign Upcycling Paradigm) dan sama sekali BUKAN menarget industri kantong plastik pasar tradisional murah meriah karena persaingan efisiensi mesin multinasional China tidak akan tertandingi."
+  },
+  "hasilAkhir": "Produk Padat Siap Pakai (Pot Tanaman Kustom, Kursi, Keramik Dinding Plastik)"
 }

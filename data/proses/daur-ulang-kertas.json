@@ -1,19 +1,29 @@
 {
   "id": "daur-ulang-kertas",
-  "judul": "Daur Ulang Kertas",
-  "kategori": "anorganik",
-  "gambar": "/images/proses/daur-ulang-kertas.webp",
-  "deskripsi": "Proses daur ulang kertas bekas menjadi kertas baru.",
+  "judul": "Daur Ulang Kertas (Handmade Art Paper)",
+  "kategori": "Anorganik",
+  "gambar": "/images/waste/kertas-hvs.webp",
+  "deskripsi": "Mengubah gunungan sampah kertas perkantoran/kardus menjadi lembaran kertas seni baru berekstur organik.",
+  "prinsipDasar": "Menghancurkan ikatan ikatan serat selulosa pada kertas bekas (repulping) dengan agitasi mekanis di dalam air. Serat murni yang terurai kemudian disaring menggunakan layar jaring mendatar (screen mesh) agar terikat kembali secara alamiah (hydrogen bonding) dan kering menjadi lembaran kertas baru.",
+  "alatBahan": "Kertas bekas (HVS, koran tipis, karton), air bersih, blender khusus kerajinan, bak air atau ember lebar segi empat, layar cetakan sablon/kertas (mould & deckle frame) mesh halus, kain katun lembaran (kain kasa tebal), spons besar, papan tekan untuk pengeringan. \n*Opsional: Pewarna alami, kelopak bunga kering.*",
+  "rasioKritis": "Sangat bergantung insting ketebalan. Secara umum: 1 genggam sobekan kertas bubur kental : 4 gelas air untuk pencetakan pulp bubur ringan di bak. Terlalu kental pulp di bak air akan mencetak kertas yang mirip karton kardus setebal keramik.",
   "langkah": [
-    "Kumpulkan kertas bekas",
-    "Rendam dalam air 12-24 jam",
-    "Blender jadi bubur kertas",
-    "Saring dan cetak",
-    "Tekan dan keringkan"
+    "Robek kertas bekas kecil-kecil (2x2 cm). JANGAN pernah memblender lembaran besar langsung karena akan merusak motor dinamo mesin.",
+    "Rendam sobekan kertas ke dalam air hangat selama semalaman (12-24 jam). Hal ini sangat krusial untuk melunakkan memecah dinding selulosa secara alami.",
+    "Blender rendaman kertas bersama banyak air tambahan. Rasio saat memblender = lebih banyak air daripada kertas. Blender hingga menjadi 'Smoothie' (pulp) sangat halus tak tersisa butiran teks.",
+    "Tuangkan bubur pulp ini ke dalam wadah bak lebar berisi air. Aduk-aduk secara ekstrem agar serat kertas melayang merata (suspensi), tidak mengendap.",
+    "Masukkan alat cetak (Screen/Frame) dengan posisi miring ke dasar bak, luruskan posisinya secara mendatar di dalam air, lalu angkat mendatar perlahan ke atas. (Tindakan ini menyaring serat agar menempel rata di net jaring).",
+    "Tiriskan kelebihan air dari screen. Tempelkan sehelai kain katun yang agak dibasahi secara pelan-pelan menutupi permukaan bubur kertas yang baru tercetak.",
+    "Gunakan spons untuk menyerap secara pelan kelebihan genangan air dari arah balik screen, menekan serat agar menempel ke kain pelapis.",
+    "Angkat screen cetak secara pelan dengan satu tarikan stabil dari sudutnya, meninggalkan kertas menempel pada kain. Jemur kain berserta tempelan kertas tersebut di ruangan berangin/teduh hingga sangat kering.",
+    "Kupas kertas kaku dari kain secara perlahan."
   ],
-  "hasilAkhir": "Kertas daur ulang, kardus telur",
-  "sumberReferensi": [
-    "https://id.wikihow.com/Mendaur-Ulang-Kertas",
-    "https://arahenvironmental.com/"
-  ]
+  "failurePoint": "Terlalu sedikit rasio cairan saat memblender → Gesekan ekstrem, motor blender akan cepat berasap/terbakar, dan serat kertas gagal hancur sempurna. \n\nLupa mengaduk bak sebelum menyaring / Menjemur tanpa tekanan (kain) → Ketebalan kertas saat dicetak akan pincang merosot. Kertas yang dijemur tanpa tekanan penjepit (tepi kain kendor) akan menggulung bergelombang (warping curls) dengan sendirinya akibat efek penyusutan pengeringan selulosa.",
+  "analisisEkonomi": {
+    "totalBiaya": "Modal Tetap: Alat Screen Kayu Set (Rp 60.000), Blender non-dapur (Rp 150.000). Bahan Kertas: Rp 0 / kg.",
+    "hpp": "Rp 200 - Rp 300 / lembar A4 tebal",
+    "hargaJual": "Rp 2.500 - Rp 6.000 / lembar (Handmade Artistic Paper / Undangan Premium)",
+    "catatan": "Margin sangat bombastis (bisa lebih dari 1000%). HPP per lembar nyaris cuma dari biaya listrik memblender dan keausan saringan. Nilai ekonomis murni bertumpu pada sentuhan Artistik (menambahkan kelopak mawar kering/bubuk matcha ke pulp). Mendaur ulang murni menjadi kertas HVS putih tulisan tidak akan mampu bersaing dengan pabrik kertas raksasa karena ketidakmurnian tingkat putih/teksturnya."
+  },
+  "hasilAkhir": "Lembaran Kertas Estetik / Kertas Kado Kustom"
 }

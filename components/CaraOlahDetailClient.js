@@ -152,6 +152,31 @@ export default function CaraOlahDetailClient({ proses }) {
               </p>
             </div>
             
+            {proses.prinsipDasar && (
+              <div className="bg-blue-50/80 rounded-2xl p-6 sm:p-8 border border-blue-100 mb-8 shadow-sm">
+                <h3 className="text-lg sm:text-xl font-bold text-blue-900 mb-3 flex items-center gap-2">
+                  <BookOpen className="w-5 h-5" /> Prinsip Dasar
+                </h3>
+                <p className="text-blue-800 leading-relaxed font-medium">{proses.prinsipDasar}</p>
+              </div>
+            )}
+
+            {proses.alatBahan && (
+              <div className="bg-amber-50/80 rounded-2xl p-6 sm:p-8 border border-amber-100 mb-8 shadow-sm">
+                <h3 className="text-lg sm:text-xl font-bold text-amber-900 mb-3 flex items-center gap-2">
+                  <Sparkles className="w-5 h-5" /> Alat & Bahan
+                </h3>
+                <p className="text-amber-800 leading-relaxed font-medium">{proses.alatBahan}</p>
+              </div>
+            )}
+            
+            {proses.rasioKritis && (
+              <div className="bg-indigo-50/80 rounded-2xl p-6 sm:p-8 border border-indigo-100 mb-8 shadow-sm">
+                <h3 className="text-lg sm:text-xl font-bold text-indigo-900 mb-3">Rasio & Proporsi Kritis</h3>
+                <p className="text-indigo-800 leading-relaxed font-medium">{proses.rasioKritis}</p>
+              </div>
+            )}
+            
             {/* Warning / Tips Section */}
             <div className={`rounded-2xl p-6 mb-12 flex items-start gap-4 shadow-sm border ${
               proses.kategori === 'B3' 
@@ -186,6 +211,97 @@ export default function CaraOlahDetailClient({ proses }) {
                 </div>
               ))}
             </div>
+          </motion.div>
+
+          {/* Optional Extended Details */}
+          <motion.div variants={itemVariants}>
+            {proses.failurePoint && (
+              <div className="bg-red-50/80 rounded-2xl p-6 sm:p-8 border border-red-100 mb-8 shadow-sm">
+                <h3 className="text-lg sm:text-xl font-bold text-red-900 mb-3 flex items-center gap-2">
+                  <ShieldAlert className="w-5 h-5" /> Failure Point (Titik Kegagalan)
+                </h3>
+                <p className="text-red-800 leading-relaxed font-medium">{proses.failurePoint}</p>
+              </div>
+            )}
+
+            {proses.rootCause && (
+              <div className="bg-orange-50/80 rounded-2xl p-6 sm:p-8 border border-orange-100 mb-8 shadow-sm">
+                <h3 className="text-lg sm:text-xl font-bold text-orange-900 mb-3">Root Cause Analysis</h3>
+                <p className="text-orange-800 leading-relaxed font-medium">{proses.rootCause}</p>
+              </div>
+            )}
+
+            {proses.keselamatanKerja && (
+              <div className="bg-rose-50/80 rounded-2xl p-6 sm:p-8 border border-rose-200 mb-8 shadow-sm">
+                <h3 className="text-lg sm:text-xl font-bold text-rose-900 mb-3 flex items-center gap-2">
+                  <ShieldAlert className="w-5 h-5" /> Keselamatan Kerja
+                </h3>
+                <p className="text-rose-800 leading-relaxed font-medium">{proses.keselamatanKerja}</p>
+              </div>
+            )}
+
+            {proses.diagnostik && (
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-slate-800 mb-4">Tabel Diagnostik Keberhasilan</h3>
+                <div className="overflow-x-auto rounded-2xl border border-slate-200 shadow-sm">
+                  <table className="w-full text-left border-collapse bg-white whitespace-nowrap min-w-[600px]">
+                    <thead className="bg-slate-50 text-slate-700">
+                      <tr>
+                        <th className="p-4 border-b border-slate-200 font-bold">Indikator</th>
+                        <th className="p-4 border-b border-slate-200 font-bold text-emerald-700">✅ Berhasil</th>
+                        <th className="p-4 border-b border-slate-200 font-bold text-red-700">❌ Gagal</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {proses.diagnostik.map((row, i) => (
+                        <tr key={i} className="hover:bg-slate-50/50 transition-colors">
+                          <td className="p-4 border-b border-slate-100 font-bold text-slate-800 bg-slate-50/30">{row.indikator}</td>
+                          <td className="p-4 border-b border-slate-100 text-emerald-600 font-medium">{row.berhasil}</td>
+                          <td className="p-4 border-b border-slate-100 text-red-500 font-medium">{row.gagal}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {proses.caraPakai && (
+              <div className="bg-teal-50/80 rounded-2xl p-6 sm:p-8 border border-teal-100 mb-8 shadow-sm">
+                <h3 className="text-lg sm:text-xl font-bold text-teal-900 mb-3">Cara Penggunaan</h3>
+                <ul className="space-y-2 list-disc list-inside text-teal-800 font-medium">
+                  {proses.caraPakai.map((item, i) => <li key={i} className="leading-relaxed">{item}</li>)}
+                </ul>
+              </div>
+            )}
+
+            {proses.analisisEkonomi && (
+              <div className="bg-gradient-to-br from-emerald-50 to-green-100/50 rounded-3xl p-6 sm:p-8 border border-emerald-200 mb-12 shadow-sm">
+                <h3 className="text-xl font-bold text-emerald-900 mb-4 flex items-center gap-2">
+                  <Sparkles className="w-6 h-6 text-emerald-600" />
+                  Analisis Ekonomi & HPP (Harga Pokok Penjualan)
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-5">
+                  <div className="bg-white/80 p-4 rounded-xl border border-emerald-100 shadow-sm text-center">
+                    <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-1">Total Biaya</p>
+                    <p className="text-lg font-black text-emerald-900">{proses.analisisEkonomi.totalBiaya}</p>
+                  </div>
+                  <div className="bg-white/80 p-4 rounded-xl border border-emerald-100 shadow-sm text-center">
+                    <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-1">HPP per Pcs</p>
+                    <p className="text-lg font-black text-emerald-900">{proses.analisisEkonomi.hpp}</p>
+                  </div>
+                  <div className="bg-white/80 p-4 rounded-xl border border-emerald-100 shadow-sm text-center">
+                    <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-1">Harga Jual / Margin</p>
+                    <p className="text-lg font-black text-emerald-900">{proses.analisisEkonomi.hargaJual}</p>
+                  </div>
+                </div>
+                <div className="bg-white/60 p-4 sm:p-5 rounded-2xl border border-emerald-100/50">
+                  <p className="text-sm sm:text-base text-emerald-800 font-medium leading-relaxed italic">
+                    " {proses.analisisEkonomi.catatan} "
+                  </p>
+                </div>
+              </div>
+            )}
           </motion.div>
 
           {/* Final Result & Benefits */}

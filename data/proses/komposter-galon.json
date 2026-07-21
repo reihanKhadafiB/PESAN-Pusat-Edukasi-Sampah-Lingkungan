@@ -1,0 +1,29 @@
+{
+  "id": "komposter-galon",
+  "judul": "Komposter Galon (Ember Tumpuk)",
+  "kategori": "Organik",
+  "gambar": "/images/proses/komposter-galon.png",
+  "deskripsi": "Mendekomposisi sampah dapur menjadi Pupuk Organik Cair (POC) dan kompos padat menggunakan instalasi dua tingkat.",
+  "prinsipDasar": "Dekomposisi bahan organik oleh mikroorganisme dengan memanfaatkan galon bekas yang disusun 2 tingkat. Metode 'ember tumpuk' ini memungkinkan cairan hasil dekomposisi (leachate) menetes terpisah dari padatan sehingga dapat dipanen melalui keran di bagian bawah tanpa harus membongkar kompos padat.",
+  "alatBahan": "Struktur: Galon atas dilubangi bagian dasarnya (sebagai wadah sampah), Galon bawah dipasangi keran air kecil (sebagai penampung tetesan lindi).\nBahan Utama: Sisa sayur/buah (sumber nitrogen & karbon), Daun kering (material kaya karbon penjaga struktur aerasi), Air cucian beras (mengandung pati, vitamin B & mineral untuk mempercepat aktivitas mikroorganisme/starter), Tanah (sumber inokulan pengurai).",
+  "langkah": [
+    "Lapisan Bawah: Masukkan tanah setinggi 5-10 cm ke dalam galon atas. Ini berfungsi sebagai 'rumah' awal bagi mikroba tanah.",
+    "Lapisan Tengah: Masukkan cincangan sisa sayur/buah dan campurkan bersama daun kering. Daun kering sangat krusial untuk memberi rongga 'napas' (aerasi) bagi tumpukan agar tidak terjadi reaksi anaerob berlebih.",
+    "Lapisan Penutup: Siramkan air cucian beras secukupnya di atas tumpukan bahan sebagai aktivator fermentasi.",
+    "Tutup galon bagian atas. Tutup BUKAN tipe kedap udara total! Pastikan ada celah gas.",
+    "Proses Fermentasi: Simpan di tempat teduh selama 10–14 hari. Rutin buka dan aduk tumpukan setiap 1-2 hari untuk melepaskan gas berlebih.",
+    "Cairan akan secara konstan menetes dan terkumpul di galon bawah untuk dipanen melalui keran."
+  ],
+  "rootCause": "Ada 4 penyebab utama (Root Cause) kegagalan komposter ini yang membuatnya berbau bangkai:\n1. Terlalu banyak kandungan air (menenggelamkan/mengencerkan populasi mikroba dan ciptakan kondisi anaerob mutlak).\n2. Wadah terlalu rapat tanpa lubang pelepas gas.\n3. Pembusukan anaerob liar yang tak terkendali.\n4. Rasio karbon-nitrogen (C:N) yang timpang (terlalu banyak sampah hijau basah, tanpa diimbangi daun kering/karbon).",
+  "diagnostik": [
+    { "indikator": "Warna", "berhasil": "Cokelat kekuningan hingga cokelat tua", "gagal": "Hitam pekat, kotor, dan disertai lendir" },
+    { "indikator": "Aroma / Bau", "berhasil": "Asam segar (seperti tape atau aroma tanah hutan sehabis hujan)", "gagal": "Berbau busuk, menyengat, atau amis seperti bangkai" },
+    { "indikator": "Tekstur Cairan", "berhasil": "Cair merata, tidak pekat berlendir", "gagal": "Menggumpal atau terlalu kental berlendir" },
+    { "indikator": "Kondisi Biologis", "berhasil": "Terlihat bersih, tidak ada jamur / belatung liar", "gagal": "Dikerumuni jamur hitam / muncul koloni belatung" }
+  ],
+  "caraPakai": [
+    "Sebagai Pupuk Siram Tanah: Campurkan 100 mL POC dengan 1 Liter air bersih. Siramkan ke tanah atau area perakaran tanaman setiap 1–2 minggu.",
+    "Sebagai Pupuk Semprot Daun: Campurkan 50 mL POC dengan 1 Liter air bersih (dosis lebih encer karena jaringan daun lebih sensitif). Semprotkan pada pagi atau sore hari agar penyerapan lewat stomata maksimal (hindari menyemprot pada siang terik karena stomata tumbuhan sedang menutup)."
+  ],
+  "hasilAkhir": "Pupuk Organik Cair (POC) dan Kompos Padat Kaya Nutrisi"
+}

@@ -1,19 +1,27 @@
 {
   "id": "pengomposan",
-  "judul": "Pengomposan",
-  "kategori": "organik",
-  "gambar": "/images/proses/pengomposan.webp",
-  "deskripsi": "Proses mengubah sampah organik menjadi kompos melalui dekomposisi alami.",
+  "judul": "Pengomposan Skala Rumahan (Metode Aerob / Takakura)",
+  "kategori": "Organik",
+  "gambar": "/images/waste/sayuran-busuk.webp",
+  "deskripsi": "Mengubah sisa limbah sampah organik pekarangan dan residu sampah dapur organik harian menjadi serbuk tanah humus ajaib penumbuh raya menggunakan rekayasa udara bakteri Aerob.",
+  "prinsipDasar": "Manajemen pembiakan koloni mikroorganisme Bakteri Aerobik Termofilik ekosistem untuk mengunyah mengurai matriks molekul bahan molekul organik selulosa kaya (Nitrogen Hijau) & (Karbon Cokelat) menjadi gembur serpih hitam humus penyubur unsur hara murni. Esensi sains utamanya tanpa rilis gas bau menyengat busuk amonia gas hidrogen sulfida (metana) dengan memaksimalkan ketersediaan aliran sirkulasi oksigen 24 Jam.",
+  "alatBahan": "Keranjang Bambu Berongga jaring (seperti keranjang cucian baju kotor plastik bolong seluruh dinding), Kardus Karton tebal besar pembatas, Bantal Jahit berisi Sekam gabah Padi / Bantal kain hitam berpori bekas goni, Gunting dapur potong cacah, Termometer panjang. \nBahan: Kompos Serbuk Tanah Hitam Murni yang sudah jadi (sebagai Rumah Stater Bibit Bakteri Mikroba Tanah Awal), Bahan sampah hijau organik limbah dapur, sekam padi kering.",
+  "rasioKritis": "KUNCI KEBERHASILAN DUNIA PENYUBUR: Keseimbangan Skema Rasio Rasio Karbon Nitrogen (C:N Ratio). WAJIB SEIMBANG IDEALNYA. Perbandingan mudahnya secara satuan hitung ember liter volume = [1 Genggam Ember Sampah HIJAU BASAH Sisa Sayur, potongan batang sisa buah, ampas kopi] BERBANDING HARUS : [1 Genggam Ember Sampah COKELAT KERING Serutan potong ranting kecil Daun kering mati gugur daun, cacahan remukan kardus tanpa selotip licin kertas, sekam gabah debu gergaji kayu].",
   "langkah": [
-    "Pisahkan sampah organik",
-    "Cacah kecil-kecil",
-    "Campur dengan tanah/EM4 (1:100)",
-    "Diamkan 2-4 minggu",
-    "Aduk berkala"
+    "Cetak wadah: Siapkan keranjang berventilasi udara ekstrim bolong semua dinding. Lapisi selimut menutupi seluruh seluruh sisi lubang dalam keranjang itu menggunakan potongan kardus polos tebal bekas air mineral merata (Sains: Fungsi kardus agar debu cacing tanah kompos tidak berceceran tumpah berantakan keluar celah bolong, tapi ajaibnya kardus tetap memberi celah Oksigen udara napas lancar menembus porinya).",
+    "Letakan 1 lapisan fondasi gembur tebal (10cm) tumpukan kompos murni atau sekam padi rumah isolator bakteri awal di dasar kotak.",
+    "Tugas harian: Cincang kecil sangat halus gunting (Lebih kecil dari 2cm-5cm) semua bagian sisa potongan ujung buang sayuran hijau kangkung, limbah basah lunak, batang pepaya lunak (Ingat! Semakin ukuran potong mengecil partikelnya = permukaan area sentuh gigitan bakteri meluas = Penguraian pengomposan meledak panen lebih cepat percepat kelipatan 5x lipat).",
+    "Masukan taburan sampah potong cincang daun hijau basah ke tengah lapisan bak alas keranjang kompos tadi. LALU WAJIB HUKUMNYA TABURI TUANGKAN Timbun Menyelimuti kembali gundukan sampah baru sayuran tersebut dengan gundukan tumpukan Sampah Debu Abu Cokelat Kering/Daun cokelat tadi untuk meredam kadar air basah nutrisi Nitrogen kelembapan tersebut.",
+    "Aduk balikan aduk campurkan gundukan sampah adonan tersebut dengan cetok garpu kebun tanah kecil agar homogen tercampur antara sayur basah lembap & daun ranting serut kering di dasar keranjang.",
+    "Tutuplah segel atap ujung bagian penampang atas tumpukan bak kargo menggunakan bantal kapas/goni sekam hitam kaku agar bau terperangkap tak keluar mengundang lalat luar & menjaga penguapan kelembapan ideal stabil hangat. Letakan tutupan seng panci rapat melindungi atas menghindari kencing tikus liar basah.",
+    "Proses Pemasakan: 2-3 hari sekali garpu balik aduk dari bawah hingga atas komposter tumpukan! Proses mikrobakteria koloni pengurai termofilik ini bekerja hebat sehingga menyemburkan mengeluarkan asap hawa gas alamiah yang sangat Puanas Terik membakar uap (Suhu inti jantung bisa mencapai menyentuh menembus titik 55-65°C derajat celcius komposter!). Suhu sepanas demam ini vital merestart pasteurisasi mengukus membunuh mematikan segala spora benih parasit rumput gulma liar jahat, belatung jahat BSF & telur patogen lalat penyakit tinja liar.",
+    "Akhir Panen (45 Hari Pasca Penutupan Pasokan Sampah Terakhir), komposter ajaib telah menyusut drastis membongkok hilang massanya hancur lapuk nyaris menyusut >60 persen volume bentuk. Suhu memadam dingin total sejuk, debu hancur berwarna legam arang hitam gembur kelembapan sempurna. Anda sukses besar menciptakan pupuk permata kehidupan tanah termahal buatan sendiri."
   ],
-  "hasilAkhir": "Kompos padat untuk pupuk tanaman, atau kompos cair",
-  "sumberReferensi": [
-    "https://em4.co.id/",
-    "https://dlh.bulelengkab.go.id/"
-  ]
+  "rootCause": "Root Cause Penyebab Tragedi Pengomposan Berbau Comberan Tinja BSF Membusuk Amonia: Kelebihan Terlalu banyak memasukkan tumpahan buang sayuran berair kuah sayur, sisa potongan sisa buah, ampas teh basah TANPA DIIMBANGI mencampur serabut daun kering kayu cokelat. Dampaknya sangat fatal mematikan. Tumpukan menggunung berlendir lembap memadat berat jatuh ke dasar kotak, menggenang kolam pori, menenggelamkan menyingkirkan memblokir tercekiknya pertukaran rongga pipa suplai oksigen napas ke mikrobakteria aerob sehat. Akhirnya penguraian berbelok menjadi Anaerob Pembusukan Kematian (Metana + Bau Amonia + Hidrogen Sulfida got comberan parah) memicu serangga hewan pengerat jijik berdatangan kotor.",
+  "diagnostik": [
+    { "indikator": "Kelembapan Genggaman Sentuh (Squeeze Test)", "berhasil": "Ditekan diremas remas padat di telapak jari terasa kenyal mampat lembap basah ibarat memeras spons yang sudah diperas air tuntas, tidak ada setetespun tetesan mengucur menetes", "gagal": "Bila diperas merembes kucuran air lendir menetes aliran banyak = Overhidrasi Kebasahan! Atau ambyar tertiup angin terbang debu batuk = Dehidrasi Terlalu Kekeringan Tanah Gersang." },
+    { "indikator": "Suhu Jantung Termometer Kompos", "berhasil": "Minggu ke 1-3 Suhu meroket memanas seperti memegang kopi teko hangat saat tangan dilesatkan ke tengah palung", "gagal": "Dingin es mendingin diam tidak beraktivitas tak ada pembusukan berlanjut sejak awal" },
+    { "indikator": "Aroma Bau Pernapasan Gas", "berhasil": "Bau harum murni segarnya aroma Tanah Basah Petrichor Hutan Hujan / Wangi Tape Fermentasi Manis Segar", "gagal": "Bau amonia pesing hidung kencing kotor, Telur busuk got comberan got buntu mual lendir tikus bangkai" }
+  ],
+  "hasilAkhir": "Tumpukan Serbuk Tanah Hitam Berkilau Emas Flora Humus"
 }

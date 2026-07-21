@@ -1,19 +1,22 @@
 {
   "id": "penanganan-b3",
-  "judul": "Penanganan B3",
-  "kategori": "b3",
-  "gambar": "/images/proses/penanganan-b3.webp",
-  "deskripsi": "Menangani limbah berbahaya dan beracun rumah tangga.",
+  "judul": "Protokol Penanganan Sampah B3 (Rumah Tangga)",
+  "kategori": "B3",
+  "gambar": "/images/waste/baterai-bekas.png",
+  "deskripsi": "Mengurung limbah mikrotoksik berbahaya dari pembuangan umum untuk mencegah terjadinya pencemaran permanen pada urat nadi sumber air tanah komunal.",
+  "prinsipDasar": "Isolasi preventif (Pengurungan/Pengkapsulan Absolut) agen kimia anorganik beracun tingkat berat untuk mencegah terjadinya interaksi reaksi pelarutan air lindi (leachate) yang dapat melepaskan materi genotoksik dan patogen berat ke perembesan air tanah maupun jaring rantai makanan ekosistem.",
+  "alatBahan": "Toples kaca tebal murni bertutup karet kedap atau Kotak Keras Polimer (Kotak Biskuit besi), selotip/lakban isolator warna mencolok (hitam/kuning), kantong plastik Ziplock tebal berlapis ganda transparan, Spidol Permanen Tinta Tahan Air tebal, Sarung tangan bedah Latex/Karet. Pasir kering murni atau serbuk gergaji penyerap air.",
   "langkah": [
-    "Identifikasi dan pisahkan limbah B3",
-    "Simpan di wadah tertutup",
-    "Serahkan ke TPS B3 atau bank sampah khusus",
-    "Pengujian karakteristik (TCLP) di fasilitas",
-    "Pengolahan akhir"
+    "(Protokol Untuk Baterai Padat Kering Bekas (Alkaline/AA/Jam)): Segera tutup ujung-ujung kedua kutub kontak besi baterai secara kencang menggunakan selotip bening/hitam kuat. Menghindari senggolan dua kutub bertegangan kecil memercik memicu kebakaran hubung arus pendek saat diletakan menumpuk (Short circuit prevention).",
+    "(Protokol Baterai Sel Bocor/Karatan Asam): WAJIB KENAKAN SARUNG TANGAN KARET GANDA! Gunakan pinset cabut baterai lembap basah (lendir kristal putih bocor sel elektrolit litium atau serbuk hitam oksida mangan). Masukkan perlahan ke bungkus ziplock plastik, taburi segenggam abu pasir kering sebagai spons absorben cairan asam mematikan itu.",
+    "(Protokol Obatan Farmasi Pil Kadaluarsa Tertolak): Keluarkan isi pil, hancurkan kasar serbuk hingga menjadi bubuk tak berbentuk dengan ujung palu ulekan. Campurkan lumat bubuk obat ini bersama sisa limbah bubuk kopi pekat bekas (atau pasir kotoran tanah litter kucing). Tujuan: Mencegah 'Oknum' nakal pengepul mendaur ulang pil kapsul bersih dari tong sampah untuk dijual curang di pasar gelap.",
+    "(Protokol Cairan Kaleng Aerosol Spray Bertekanan): Kosongkan menyemprot sisa gas sisa pewangi/anti serangga semprot itu ke udara luar di lapangan terbuka angin kencang hingga benar benar bunyi 'Hsss' lenyap kosong total pelarutnya. JANGAN PERNAH sekali kali mencoblos, merobek jarum pelubang, mendaki ke perapian tungku, botol semprotan! (Botol bekas spray obat nyamuk adalah granat rakitan kecil).",
+    "(Protokol Lampu TL/Neon Merkuri Putih Utuh): Balut ujung tabung lampu neon bohlam putih dengan dus kotak pelindung aslinya atau balutan koran tebal menutupi sekeliling permukaan perut kaca. Bila retak memecah, evakuasi 1 ruangan tutup napas, siram pecahan dan serbuk fosfor merkuri uap putih beracun sistem saraf tersebut, lalu isolasi ziplock kedap berlabel 'MENGANDUNG KACA BERACUN MERKURI'.",
+    "Gembok kurung isolasi gabungan sampah B3 yang telah tertutup ini pada suatu Tabung Toples Wadah Kaca Besar di sudut rumah kering dingin.",
+    "Labeli spidol stiker merah besar 'BAHAYA - KUMPULAN SAMPAH B3 BERACUN RUMAH TANGGA - BATERAI & OBAT - JAUHKAN DARI JANGKAUAN ANAK ANAK'.",
+    "Kumpulkan dan serahkan titipkan drop-box B3 khusus penjemputan berkala Dinas Lingkungan Hidup Pemerintah Kota, E-Waste Pengepul Sampah Elektronik Resmi Terlisensi, atau Titip buang ke kotak Puskesmas Medis RS Desa terdekat."
   ],
-  "hasilAkhir": "Recovery logam berharga, disposal aman",
-  "sumberReferensi": [
-    "https://greenlab.co.id/",
-    "https://dlh.jatengprov.go.id/"
-  ]
+  "rootCause": "MEMBUANG BATERAI ALKALINE/AKIK JAM DINDING ke keranjang tong sampah plastik biasa rumah tangga → Masuk nyampur terbawa ke jurang gunungan bukit TPA (Tempat Pembuangan Akhir Sampah Kabupaten). Dalam 2 tahun, hujan dan proses pembusukan sayur asam anaerobik TPA mempercepat karat pengelupasan selongsong silinder cangkang plat besi Baterai. Akibatnya: Ratusan zat pelarut Timbal (Pb), Kadmium Karsinogen (Cd), Asam Sulfat Korosif merembes bocor ke tanah air lindi mengalir menetes lambat (Perkolasi leaching) menembus akuifer batuan dasar mencemari keracunan sumber sumur bor air 3 Kilometer radius sekitar desa TPA selamanya.",
+  "failurePoint": "Menggabungkan Sampah Elektronik Beracun bersama kulit pisang sampah dapur! Air pembusukan organik sayur mayur itu bersifat Korosif (Ph sangat Asam Ekstrem). Air asam ini akan sangat sangat mempercepat laju karat besi selimut pelindung Baterai dan Komponen IC Elektro dari perkiraan 10 tahun karat alamiah menjadi bocor rilis air raksa mematikan merkuri tumpah dalam hitungan hitungan bulan singgah saja di TPA tong sampah itu.",
+  "hasilAkhir": "Toples Kotak Karatina Limbah Khusus (Aman Ekologi Air Tanah Lingkungan)"
 }

@@ -1,18 +1,32 @@
 {
   "id": "pembuatan-ecobrick",
   "judul": "Pembuatan Ecobrick",
-  "kategori": "anorganik",
-  "gambar": "/images/proses/ecobrick.webp",
-  "deskripsi": "Mengubah sampah plastik sachet/bungkus menjadi material bangunan modular.",
+  "kategori": "Anorganik",
+  "gambar": "/images/proses/ecobrick.png",
+  "deskripsi": "Mengubah limbah plastik tertolak (sachet, multilayer, kresek) menjadi material bangunan modular yang super padat dan fungsional.",
+  "prinsipDasar": "Penguncian massa plastik (terutama yang sulit didaur ulang) ke dalam ruang sempit yang rigid (botol PET) untuk membuat blok bangunan padat. Prinsip ini mencegah pelepasan materi plastik atau mikroplastik ke biosfer (tanah, lautan) secara permanen.",
+  "alatBahan": "Botol plastik PET bekas seragam ukuran (contoh: 600ml Aqua), tongkat kayu bulat padat/bukan bambu berongga (diameter ~1.5cm), timbangan digital, gunting besar, dan sampah plastik murni (sachet, multilayer, bungkus mie) yang sudah DIBERSIHKAN dan KERING TOTAL.",
   "langkah": [
-    "Siapkan botol plastik bersih",
-    "Kumpulkan sampah plastik bersih",
-    "Potong kecil-kecil",
-    "Masukkan ke botol dan padatkan",
-    "Isi hingga penuh dan keras"
+    "Cuci bersih dan keringkan SEMUA sampah plastik dan bagian dalam botol PET. Tidak boleh ada sedikit pun sisa air, minyak, atau saus makanan, karena sisa basah akan memicu jamur anaerobik di dalam botol tertutup.",
+    "Gunting plastik lebar/besar menjadi potongan kecil. Semakin kecil potongannya, semakin mudah memadatkannya di setiap sudut botol.",
+    "Masukkan satu lembar kresek berwarna cerah pertama kali ke dasar botol sebagai 'bantal' (menutup lekukan pantat botol secara estetis).",
+    "Masukkan potongan plastik secara bertahap (per 2-3 ruas jari).",
+    "Gunakan tongkat kayu untuk menekan dan memadatkan setiap lapisan secara sistematis ke sudut terbawah dan sekeliling dalam botol.",
+    "Ulangi proses ini ratusan kali hingga botol terisi penuh hingga leher botol. Tongkat tidak boleh bisa menembus tumpukan lebih dari 1 cm (sangat padat batu).",
+    "Timbang botol! Standar Kepadatan Global Ecobrick = Volume botol (mL) x 0.33 gram. (Contoh untuk botol 600mL = minimal beratnya 198 gram atau 200 gram).",
+    "Tutup ulir botol secara rapat agar tidak masuk kelembapan udara."
   ],
-  "hasilAkhir": "Bahan bangunan modular (ecobrick)",
-  "sumberReferensi": [
-    "https://ecobricks.org/id/"
-  ]
+  "failurePoint": "Plastik dalam keadaan lembap/basah dipaksa dimasukkan → Di dalam botol akan tumbuh gas patogen dan gas metana yang membuat botol menggembung meledak atau bau busuk ekstrem jika kelak terbuka. \n\nBerat ecobrick kurang dari standar batas minimal (misal 600ml hanya 100gr) → Dinding ecobrick mudah kempes, tidak bisa digunakan sebagai bahan bangunan batu bata karena tidak tahan tekanan (akan roboh jika diduduki).",
+  "diagnostik": [
+    { "indikator": "Kepadatan Berat", "berhasil": "Mencapai standar > 200gr (untuk 600ml)", "gagal": "Ringan, jauh di bawah standar" },
+    { "indikator": "Struktur Dinding Botol", "berhasil": "Solid dan kaku layaknya batu bata", "gagal": "Terdengar suara 'krek-krek' plastik saat ditekan ke dalam (Penyok)" },
+    { "indikator": "Visual Kebersihan Botol", "berhasil": "Jernih, tidak ada embun berlebih di bagian dalam dinding", "gagal": "Terdapat embun air atau bercak kecoklatan (jamur tumbuh)" }
+  ],
+  "analisisEkonomi": {
+    "totalBiaya": "Rp 0 (Seluruh materi 100% dari sampah rumah tangga)",
+    "hpp": "Rp 0 / pcs",
+    "hargaJual": "Rp 150.000 - Rp 300.000 (Modul Kursi / Meja jadi)",
+    "catatan": "Ecobrick botol individual jarang memiliki nilai jual eceran komersial kecuali untuk yayasan tertentu. Nilai ekonomi sesungguhnya (margin profit) terletak pada proses Upcycling. Menggabungkan ratusan ecobrick dengan tanah liat atau silikon menjadi produk jadi (modul mebel, meja, dinding estetik taman) memberikan lonjakan harga hijau yang sangat tinggi."
+  },
+  "hasilAkhir": "Blok Bahan Bangunan Modular Kuat"
 }
