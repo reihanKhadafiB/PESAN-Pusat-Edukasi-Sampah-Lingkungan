@@ -74,7 +74,7 @@ export default function QuizContainer({ quizData }) {
   };
 
   if (!isReady || !sessionQuestions || sessionQuestions.length === 0) {
-    return <div className="text-center p-8 bg-white/70 backdrop-blur-xl rounded-2xl animate-pulse h-64 flex items-center justify-center font-bold text-slate-500">Menyiapkan kuis...</div>;
+    return <div className="text-center p-8 bg-white/95 rounded-2xl animate-pulse h-64 flex items-center justify-center font-bold text-slate-500">Menyiapkan kuis...</div>;
   }
 
   // Hitung skor saat ini untuk dikirim ke QuizResult
@@ -106,7 +106,7 @@ export default function QuizContainer({ quizData }) {
       />
       
       {/* Catatan untuk pengguna */}
-      <div className="mt-8 flex items-center justify-center gap-2 text-slate-500 text-sm font-medium bg-slate-100/50 py-3 px-4 rounded-full border border-slate-200/60 max-w-lg mx-auto backdrop-blur-sm">
+      <div className="mt-8 flex items-center justify-center gap-2 text-slate-500 text-sm font-medium bg-slate-100/80 py-3 px-4 rounded-full border border-slate-200/60 max-w-lg mx-auto">
         <Info className="w-4 h-4 text-emerald-600 shrink-0" />
         <span className="text-center">Catatan: Progres jawabanmu akan ter-reset jika web ini di-refresh.</span>
       </div>

@@ -93,11 +93,11 @@ export default function CaraOlahDetailClient({ proses }) {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pt-24 relative min-h-screen">
       {/* Dynamic Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-        <div className={`absolute top-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full blur-[120px] animate-pulse-slow ${
-          proses.kategori === 'Organik' ? 'bg-green-200/40' :
-          proses.kategori === 'Anorganik' ? 'bg-blue-200/40' : 'bg-orange-200/40'
+        <div className={`absolute top-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full opacity-40 animate-pulse-slow ${
+          proses.kategori === 'Organik' ? 'bg-green-200' :
+          proses.kategori === 'Anorganik' ? 'bg-blue-200' : 'bg-orange-200'
         }`} />
-        <div className={`absolute bottom-[20%] left-[-10%] w-[40%] h-[40%] rounded-full blur-[120px] animate-pulse-slow ${
+        <div className={`absolute bottom-[20%] left-[-10%] w-[40%] h-[40%] rounded-full opacity-40 animate-pulse-slow ${
           proses.kategori === 'Organik' ? 'bg-emerald-200/40' :
           proses.kategori === 'Anorganik' ? 'bg-cyan-200/40' : 'bg-red-200/40'
         }`} style={{ animationDelay: '2s' }} />
@@ -109,7 +109,7 @@ export default function CaraOlahDetailClient({ proses }) {
         transition={{ duration: 0.5 }}
         className="mb-8 max-w-4xl mx-auto"
       >
-        <Link href="/cara-olah" className="group inline-flex items-center gap-2 px-5 py-2.5 bg-white/80 backdrop-blur-md rounded-full shadow-sm hover:shadow-md border border-gray-100 text-gray-700 hover:text-green-600 font-medium transition-all duration-300">
+        <Link href="/cara-olah" className="group inline-flex items-center gap-2 px-5 py-2.5 bg-white/95 rounded-full shadow-sm hover:shadow-md border border-gray-100 text-gray-700 hover:text-green-600 font-medium transition-all duration-300">
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
           Kembali ke Daftar Proses
         </Link>
@@ -119,7 +119,7 @@ export default function CaraOlahDetailClient({ proses }) {
         variants={containerVariants}
         initial="hidden"
         animate="show"
-        className="bg-white/90 backdrop-blur-xl rounded-[2.5rem] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white/80 overflow-hidden relative max-w-4xl mx-auto"
+        className="bg-white/95 rounded-[2.5rem] shadow-[0_8px_30px_rgb(0,0,0,0.06)] border border-white/80 overflow-hidden relative max-w-4xl mx-auto"
       >
         {/* Hero Image Section (Full Width Top) */}
         <motion.div variants={itemVariants} className="relative w-full h-64 sm:h-80 md:h-[400px] overflow-hidden group">
@@ -133,7 +133,7 @@ export default function CaraOlahDetailClient({ proses }) {
             sizes="(max-width: 1024px) 100vw, 1024px"
           />
           <div className="absolute top-6 left-6 z-20">
-            <CategoryBadge kategori={proses.kategori} className="shadow-lg backdrop-blur-md bg-white/95" />
+            <CategoryBadge kategori={proses.kategori} className="shadow-lg bg-white/95" />
           </div>
           <div className="absolute bottom-0 left-0 w-full p-6 sm:p-10 z-20">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight drop-shadow-md">

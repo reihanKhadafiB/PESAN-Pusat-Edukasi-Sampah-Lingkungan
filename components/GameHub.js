@@ -60,7 +60,7 @@ export default function GameHub() {
             className={`flex items-center gap-2 px-4 py-2 rounded-full font-bold shadow-md transition-all duration-300 border ${
               isMusicPlaying 
                 ? 'bg-yellow-400 text-yellow-900 border-yellow-500 hover:bg-yellow-300' 
-                : 'bg-white/80 backdrop-blur-md text-slate-500 border-slate-200 hover:bg-white'
+                : 'bg-white/95 text-slate-500 border-slate-200 hover:bg-white'
             }`}
             title="Toggle Background Music"
           >
@@ -83,7 +83,7 @@ export default function GameHub() {
               {/* Game 1: Hujan Sampah */}
               <button
                 onClick={() => setActiveGame('hujan-sampah')}
-                className="group relative bg-white/70 backdrop-blur-xl border border-white rounded-[2rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-300 flex flex-col items-center text-center overflow-hidden hover:-translate-y-2"
+                className="group relative bg-white/95 border border-white rounded-[2rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-300 flex flex-col items-center text-center overflow-hidden hover:-translate-y-2"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-emerald-400/0 to-teal-400/0 group-hover:from-emerald-400/10 group-hover:to-teal-400/10 transition-colors duration-500" />
                 <div className="w-24 h-24 bg-gradient-to-br from-emerald-100 to-teal-100 rounded-[2rem] flex items-center justify-center mb-6 shadow-inner group-hover:scale-110 transition-transform duration-500">
@@ -102,7 +102,7 @@ export default function GameHub() {
               {/* Game 2: TTS */}
               <button
                 onClick={() => setActiveGame('tts')}
-                className="group relative bg-white/70 backdrop-blur-xl border border-white rounded-[2rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-300 flex flex-col items-center text-center overflow-hidden hover:-translate-y-2"
+                className="group relative bg-white/95 border border-white rounded-[2rem] p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-all duration-300 flex flex-col items-center text-center overflow-hidden hover:-translate-y-2"
               >
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400/0 to-indigo-400/0 group-hover:from-blue-400/10 group-hover:to-indigo-400/10 transition-colors duration-500" />
                 <div className="w-24 h-24 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-[2rem] flex items-center justify-center mb-6 shadow-inner group-hover:scale-110 transition-transform duration-500">
@@ -129,7 +129,7 @@ export default function GameHub() {
           >
             <button
               onClick={() => setActiveGame(null)}
-              className="mb-6 flex items-center gap-2 px-5 py-2.5 bg-white/80 backdrop-blur-md rounded-full shadow-sm hover:shadow-md border border-gray-100 text-slate-700 hover:text-emerald-600 font-bold transition-all duration-300 self-start lg:self-auto lg:mr-auto"
+              className="mb-6 flex items-center gap-2 px-5 py-2.5 bg-white/95 rounded-full shadow-sm hover:shadow-md border border-gray-100 text-slate-700 hover:text-emerald-600 font-bold transition-all duration-300 self-start lg:self-auto lg:mr-auto"
             >
               <ArrowLeft className="w-5 h-5" />
               Kembali ke Menu Game

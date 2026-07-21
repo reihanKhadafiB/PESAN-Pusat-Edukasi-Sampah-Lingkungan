@@ -23,15 +23,15 @@ export default function JenisSampahDetailClient({ item }) {
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 pt-24 relative min-h-screen">
       {/* Dynamic Background Elements based on category */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-        <div className={`absolute top-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full blur-[120px] animate-pulse-slow ${
-          item.kategoriUtama === 'Organik' ? 'bg-green-200/40' :
-          item.kategoriUtama === 'Anorganik' ? 'bg-blue-200/40' :
-          item.kategoriUtama === 'B3' ? 'bg-red-200/40' : 'bg-gray-200/40'
+        <div className={`absolute top-[-10%] right-[-10%] w-[40%] h-[40%] rounded-full opacity-40 animate-pulse-slow ${
+          item.kategoriUtama === 'Organik' ? 'bg-green-200' :
+          item.kategoriUtama === 'Anorganik' ? 'bg-blue-200' :
+          item.kategoriUtama === 'B3' ? 'bg-red-200' : 'bg-gray-200'
         }`} />
-        <div className={`absolute bottom-[20%] left-[-10%] w-[40%] h-[40%] rounded-full blur-[120px] animate-pulse-slow ${
-          item.kategoriUtama === 'Organik' ? 'bg-emerald-200/40' :
-          item.kategoriUtama === 'Anorganik' ? 'bg-cyan-200/40' :
-          item.kategoriUtama === 'B3' ? 'bg-orange-200/40' : 'bg-slate-200/40'
+        <div className={`absolute bottom-[20%] left-[-10%] w-[40%] h-[40%] rounded-full opacity-40 animate-pulse-slow ${
+          item.kategoriUtama === 'Organik' ? 'bg-emerald-200' :
+          item.kategoriUtama === 'Anorganik' ? 'bg-cyan-200' :
+          item.kategoriUtama === 'B3' ? 'bg-orange-200' : 'bg-slate-200'
         }`} style={{ animationDelay: '2s' }} />
       </div>
 
@@ -41,7 +41,7 @@ export default function JenisSampahDetailClient({ item }) {
         transition={{ duration: 0.5 }}
         className="mb-8"
       >
-        <Link href="/jenis-sampah" className="group inline-flex items-center gap-2 px-5 py-2.5 bg-white/80 backdrop-blur-md rounded-full shadow-sm hover:shadow-md border border-gray-100 text-gray-700 hover:text-green-600 font-medium transition-all duration-300">
+        <Link href="/jenis-sampah" className="group inline-flex items-center gap-2 px-5 py-2.5 bg-white/95 rounded-full shadow-sm hover:shadow-md border border-gray-100 text-gray-700 hover:text-green-600 font-medium transition-all duration-300">
           <ArrowLeft className="w-5 h-5 group-hover:-translate-x-1 transition-transform" />
           Kembali ke Katalog
         </Link>
@@ -51,7 +51,7 @@ export default function JenisSampahDetailClient({ item }) {
         variants={containerVariants}
         initial="hidden"
         animate="show"
-        className="bg-white/80 backdrop-blur-xl rounded-[2.5rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white/50 overflow-hidden relative"
+        className="bg-white/95 rounded-[2.5rem] shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-white/50 overflow-hidden relative"
       >
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-12 p-2 sm:p-4">
           
@@ -67,10 +67,10 @@ export default function JenisSampahDetailClient({ item }) {
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
             <div className="absolute top-6 left-6 z-20">
-              <CategoryBadge kategori={item.kategoriUtama} className="shadow-lg backdrop-blur-md bg-white/90" />
+              <CategoryBadge kategori={item.kategoriUtama} className="shadow-lg bg-white/95" />
             </div>
             <div className="absolute bottom-6 left-6 z-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 translate-y-4 group-hover:translate-y-0">
-               <span className="px-4 py-2 bg-white/20 backdrop-blur-md text-white rounded-full text-sm font-medium border border-white/30">
+               <span className="px-4 py-2 bg-black/40 text-white rounded-full text-sm font-medium border border-white/30">
                  Kategori: {item.subKategori}
                </span>
             </div>

@@ -15,9 +15,9 @@ export default function QuizQuestion({
   const isAnswered = selectedAnswer !== null && selectedAnswer !== undefined;
   
   return (
-    <div className="bg-white/70 backdrop-blur-xl rounded-[2rem] shadow-xl shadow-slate-200/50 border border-white p-6 sm:p-10 relative overflow-hidden">
+    <div className="bg-white/95 rounded-[2rem] shadow-xl shadow-slate-200/50 border border-white p-6 sm:p-10 relative overflow-hidden">
       <div className="mb-6 flex justify-between items-center">
-        <span className="text-xs sm:text-sm font-extrabold text-emerald-700 bg-emerald-100/80 px-4 py-2 rounded-full uppercase tracking-widest backdrop-blur-sm border border-emerald-200/50">
+        <span className="text-xs sm:text-sm font-extrabold text-emerald-700 bg-emerald-100/90 px-4 py-2 rounded-full uppercase tracking-widest border border-emerald-200/50">
           Pertanyaan {currentQuestionIndex + 1} dari {totalQuestions}
         </span>
       </div>

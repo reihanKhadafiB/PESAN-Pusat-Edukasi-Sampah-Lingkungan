@@ -315,7 +315,7 @@ export default function TTSGame() {
   };
 
   return (
-    <div className="bg-white/70 backdrop-blur-xl rounded-[2rem] p-4 sm:p-8 border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] max-w-6xl mx-auto w-full">
+    <div className="bg-white/95 rounded-[2rem] p-4 sm:p-8 border border-white shadow-[0_8px_30px_rgb(0,0,0,0.04)] max-w-6xl mx-auto w-full">
       {/* Header UI */}
       <div className="flex justify-between items-center mb-6 px-2">
         <div className="flex items-center gap-2 bg-emerald-100 text-emerald-800 px-4 py-2 sm:px-6 sm:py-3 rounded-full font-black text-lg shadow-sm border border-emerald-200">
@@ -341,7 +341,7 @@ export default function TTSGame() {
           {gameState === 'menu' && (
             <motion.div 
               initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-              className="absolute inset-0 flex flex-col items-center justify-center bg-slate-900/40 backdrop-blur-sm z-30"
+              className="absolute inset-0 flex flex-col items-center justify-center bg-slate-900/80 z-30"
             >
               <div className="bg-white p-8 rounded-3xl shadow-2xl text-center max-w-sm mx-4 border border-emerald-100">
                 <div className="text-6xl mb-4">🧩</div>
@@ -366,7 +366,7 @@ export default function TTSGame() {
           {gameState === 'won' && (
             <motion.div 
               initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0 }}
-              className="absolute inset-0 flex flex-col items-center justify-center bg-emerald-900/60 backdrop-blur-md z-30"
+              className="absolute inset-0 flex flex-col items-center justify-center bg-emerald-900/90 z-30"
             >
               <div className="bg-white p-8 rounded-3xl shadow-2xl text-center max-w-sm mx-4 border border-emerald-100">
                 <div className="text-6xl mb-4">🏆</div>

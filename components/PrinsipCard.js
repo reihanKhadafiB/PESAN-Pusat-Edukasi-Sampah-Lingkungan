@@ -20,9 +20,9 @@ export default function PrinsipCard({ prinsip, index }) {
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.15 }}
       whileHover={{ y: -8 }}
-      className={`rounded-3xl p-8 md:p-10 border ${theme.border} ${theme.bg} ${theme.shadow} backdrop-blur-sm relative overflow-hidden h-full flex flex-col shadow-sm transition-all duration-300`}
+      className={`rounded-3xl p-8 md:p-10 border ${theme.border} ${theme.bg} ${theme.shadow} relative overflow-hidden h-full flex flex-col shadow-sm transition-all duration-300`}
     >
-      <div className="absolute top-0 right-0 w-32 h-32 bg-white/40 rounded-bl-full -z-10 blur-xl" />
+      <div className="absolute top-0 right-0 w-32 h-32 bg-white/40 rounded-bl-full -z-10" />
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
         <div>
